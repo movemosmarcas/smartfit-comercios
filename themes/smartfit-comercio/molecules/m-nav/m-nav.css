@@ -1,0 +1,74 @@
+.m-nav {
+    display: flex;
+    gap: 17px;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.m-nav a {
+    text-decoration: none;
+    font-size: var(--size-medium);
+    color: var(--main-color);
+    border-bottom: solid 0px var(--quinary-color);
+    transition: 0.35s;
+}
+
+.nav-btn a{
+    color: white;
+}
+
+.pagos-pse {
+    background: var(--main-color);
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    transition: 0.35s;
+}
+
+.o-header--js-active .pagos-pse{
+    background-color: white;
+}
+
+.o-header--js-active .nav-btn a{
+    color: var(--main-color);
+}
+
+.usuarios-btn {
+    background: var(--secondary-color);
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+}
+
+.nav-btn>li{
+    box-shadow: 0px 0px 0px black;
+    transition: 0.35s;  
+}
+
+.nav-btn>li:hover{
+    box-shadow: var(--shadow-boxes);
+    transition: 0.35s;
+}
+
+@media(max-width: 768px){
+    .m-nav {
+        flex-direction: column;
+        width: 100vw;
+        justify-content: flex-start;
+        align-items: flex-start;
+        z-index: 1;
+        position: absolute;
+        background-color: var(--main-color);
+        padding: 0px 20px;
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+        border-radius: 0px 0px 10px 10px;
+        max-height: 0px;
+        overflow: hidden;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .has-show .m-nav {
+        max-height: 500px;
+        padding: 36px 20px;
+    }
+}

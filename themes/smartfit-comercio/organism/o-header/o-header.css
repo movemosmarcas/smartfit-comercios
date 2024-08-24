@@ -1,0 +1,135 @@
+.o-header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 3;
+    background-color: transparent;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0);
+    transition: 0.35s;
+}
+
+.o-header--js-active{
+    background-color:var(--main-color);
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+.o-header__logo-content{
+    background: var(--main-color);
+    padding: 3rem 2rem;
+    border-radius: 0px 0px 2rem 2rem;
+    transition: 0.35s;
+}
+
+.o-header--js-active .o-header__logo-content{
+    padding: 1rem;
+    transition: 0.35s;
+}
+
+.page-template-empresas .o-header--js-active{
+    background-color: var(--main-color);
+}
+
+.o-header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 400px;
+    transition: all 0.3s ease-in-out;
+    max-width: 85%;
+}
+
+.o-header--js-active .o-header__content{
+    max-height: 8rem;
+}
+
+.o-header__mobile-content {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.o-header__mobile {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    gap: 0.8rem;
+    cursor: pointer;
+}
+
+.o-header__mobile-line {
+    height: 0.4rem;
+    width: 100%;
+    background-color: var(--main-color);
+    position: relative;
+    transition: 0.35s;
+}
+
+.o-header--js-active .o-header__mobile-line{
+    background-color: white;
+}
+
+.o-header__mobile-line--center {
+    margin: 0px auto;
+    opacity: 1;
+}
+
+.has-show .o-header__mobile-line{
+    transform: rotate(45deg);
+    top: 11px;
+}
+
+.has-show .o-header__mobile-line--center{
+    opacity: 0;
+    transform: translate(10px, 0px);
+    top: 0px;
+}
+
+.has-show .o-header__mobile-line--bottom{
+    transform: rotate(-45deg);
+    top: -11px;
+}
+
+.o-header__nav-content {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+
+    .o-header{
+        background-color: var(--main-color);
+        position: sticky;
+        z-index: 7;
+    }
+
+    .o-header__nav-content {
+        position: absolute;
+        bottom: 2px;
+        left: 0px;
+    }
+
+    .o-header--js-active .o-header__logo-content{
+        padding: 1rem 0rem 0rem 0rem;
+    }
+
+    .o-header__logo-content{
+        padding: 1rem 
+    }
+
+    .o-header__mobile-content{
+        display: block;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 80vw;
+        top: -4.5rem;
+    }
+
+    .o-header__mobile-line{
+        background-color: white;
+    }
+}
