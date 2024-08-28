@@ -30,9 +30,23 @@ function theme_setup(){
         register_nav_menu('nav-main', __('Menu principal'));
         register_nav_menu('nav-btn', __('Botones'));
         register_nav_menu('nav-footer', __('Menu footer'));
-        register_nav_menu('nav-project', __('Menu proyectos'));
         register_nav_menu('nav-legal', __('Menu legal'));
       }
       add_action('after_setup_theme', 'register_new_menu');
     
   endif;
+
+  /** User Role */
+
+function crear_rol_comercio() {
+    $capabilities = array(
+        'read' => true, 
+        'edit_posts' => false, 
+        'delete_posts' => false, 
+        'publish_posts' => false, 
+        'upload_files' => false, 
+    );
+     add_role('comercio', 'Comercio', $capabilities);
+}
+add_action('init', 'crear_rol_comercio');
+

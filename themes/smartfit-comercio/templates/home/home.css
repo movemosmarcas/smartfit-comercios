@@ -1,0 +1,76 @@
+.home {
+  background-image: url(../../assets/img/background.jpeg);
+  background-size: cover;
+  width: 100vw;
+  height: 98vh;
+  background-repeat: no-repeat;
+}
+
+.home-content {
+  display: grid;
+  grid-template-columns: 57% 43%;
+  height: 100%;
+  align-items: center;
+  max-width: 60%;
+  margin: auto;
+}
+
+.home__logo {
+  width: 200px;
+}
+
+.home__form-title {
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--main-color);
+  text-transform: uppercase;
+  margin: 12px 0px;
+}
+
+.home__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 57%;
+}
+
+.home__form-content {
+  background: white;
+  padding: 3rem;
+  border-radius: 12px;
+  max-width: 65%;
+  box-sizing: border-box;
+}
+
+.home__form-subtitle {
+  margin: 0;
+  font-weight: 400;
+}
+
+#loginform p {
+  display: flex;
+  flex-direction: column;
+}
+
+#loginform input {
+  background: rgba(246, 246, 246, 1);
+  border: rgba(177, 177, 177, 1) solid 1px;
+  height: 4rem;
+  border-radius: 7px;
+}
+
+.login-remember label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 1rem;
+}
+
+input#wp-submit {
+  background-color: var(--second-color);
+  color: white;
+  height: 4rem;
+  margin: auto;
+  padding: 1rem 4rem !important;
+  border-radius: 50rem;
+}
