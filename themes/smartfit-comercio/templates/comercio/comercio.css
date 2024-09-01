@@ -86,6 +86,7 @@
   position: absolute;
   right: 10px;
   top: 3px;
+  cursor: pointer;
 }
 
 .comercio-modal__input {

@@ -17,7 +17,7 @@ get_header(); ?>
         <?php
             $args = array(
                 'echo'           => true,        
-                'redirect'       => home_url('/comercio'),  
+                'redirect'       => home_url('/index.php/comecio/'),  
                 'form_id'        => 'loginform', 
                 'label_username' => __( 'Nombre de usuario' ),
                 'label_password' => __( 'Contraseña' ),
