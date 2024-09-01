@@ -1,0 +1,146 @@
+.comercio-content {
+  margin-bottom: 7rem;
+}
+
+.comercio-head {
+  background-size: cover;
+  background-attachment: fixed;
+  height: 45vh;
+}
+
+.comercio-head__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.comercio-head__title {
+  background: var(--main-color);
+  margin: 0;
+  padding: 2rem;
+  font-size: 3rem;
+  position: relative;
+  bottom: -1px;
+}
+
+.comercio-body {
+  max-width: 80%;
+  margin: 6rem auto;
+  text-align: center;
+}
+
+.comercio-body__test-discount {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.comercio-body__desc p {
+  font-size: 17px;
+} 
+
+.comercio-body__btn-val {
+  display: inline-block;
+  background-color: var(--second-color);
+  color: white;
+  font-size: 20px;
+  padding: 18px 62px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+
+/* modal */
+
+.comercio-modal {
+  height: 100vh;
+  width: 100vw;
+  top: 0px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #00000036;
+}
+
+.comercio-modal[open] {
+  display: flex;
+}
+
+.comercio-modal__content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  position: relative;
+}
+
+.comercio-modal__title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.close-modal__close {
+  font-size: 1.8rem;
+  position: absolute;
+  right: 10px;
+  top: 3px;
+}
+
+.comercio-modal__input {
+  width: 100%;
+  height: 4rem;
+  border: solid rgba(177, 177, 177, 1) 1px;
+  margin-top: 1rem;
+  border-radius: 5px;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+  background-color: rgba(246, 246, 246, 1);
+
+}
+
+.comercio-modal__title b{
+  display: block;
+}
+
+.comercio-modal__footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem auto -9px;
+}
+
+.btn {
+  background: var(--second-color);
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+.btn.btn--cancel{
+ background-color:rgba(116, 116, 116, 1)
+}
+
+/** Val */
+.comercio-val {
+  text-align: center;
+}
+
+.comercio-val__title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.comercio-val__text {
+  display: inline-block;
+  border: solid 1px rgba(177, 177, 177, 1);
+  padding: 2rem;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background: rgba(246, 246, 246, 1);
+  min-width: 250px;
+}
