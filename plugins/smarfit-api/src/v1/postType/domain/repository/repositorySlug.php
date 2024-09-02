@@ -8,6 +8,7 @@
     private $id;
     private $tax = 'category';
     private $terms_id = '';
+    private $title = '';
 
     public function __construct($params){
       $this->post_type  = $params->get_param('post_type');
@@ -16,6 +17,7 @@
       $this->id = $params->get_param('id');
       $this->tax = $params->get_param('tax');
       $this->terms_id = $params->get_param('ids');
+      $this->title = $params->get_param('title');
     }
 
     public function get_page_data_by_slug() {
@@ -26,6 +28,10 @@
         'posts_per_page' => -1
       );
 
+      if (!empty($this->title)) {
+        $args['s'] = $this->title;
+      }
+    
       if(!empty($this->terms_id) && !empty($this->tax)){
         $args['tax_query'] = array(
           array(
