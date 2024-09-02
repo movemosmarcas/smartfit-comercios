@@ -26,9 +26,16 @@ class RepositoryTax{
           'hide_empty' => true
         ) 
     );
-  
-    return $childs_terms;
-  }
 
+    foreach ($childs_terms as $key => $value) {
+      $childs_terms[$key] = [
+        'id' => $value->term_id,
+        'name' => $value->name,
+        'slug' => $value->slug
+      ];
+    }
+
+    return array_values($childs_terms); 
+  }
 
 }
