@@ -4,25 +4,39 @@
   {
     private $repositorySlug;
     private $post_type = 'page';
+    private $only_acf = 'false';
     private $id;
+    private $tax = 'category';
+    private $terms_id = '';
 
     public function __construct($params){
-      
       $this->post_type  = $params->get_param('post_type');
       $this->repositorySlug = $params->get_param('slug');
       $this->only_acf = $params->get_param('only_acf');
       $this->id = $params->get_param('id');
+      $this->tax = $params->get_param('tax');
+      $this->terms_id = $params->get_param('ids');
     }
 
     public function get_page_data_by_slug() {
- 
-      $loop = new WP_Query(
-        array(
-          'post_type' => $this->post_type, 
-          'name' => $this->repositorySlug,
-          'posts_per_page' => -1
-          )
+
+      $args =  array(
+        'post_type' => $this->post_type, 
+        'name' => $this->repositorySlug,
+        'posts_per_page' => -1
       );
+
+      if(!empty($this->terms_id) && !empty($this->tax)){
+        $args['tax_query'] = array(
+          array(
+            'taxonomy' => $this->tax,
+            'field' => 'term_id',
+            'terms' => explode(',', $this->terms_id),
+            'operator' => 'AND'
+          )
+        );
+      } 
+      $loop = new WP_Query($args);
       
       if($this->id){
         $loop['id'] = $this->id;

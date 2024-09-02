@@ -2,9 +2,15 @@
 
   define('API_ROUTE', 'smartfit/v1');
   
+  //post types
   include_once 'v1/postType/domain/registerDomain.php';
   include_once 'v1/postType/infrastructure/registerInfrastructure.php';
   include_once 'v1/postType/application/registerApplication.php';
+
+  //taxonomies
+  include_once 'v1/tax-list/domain/registerDomain.php';
+  include_once 'v1/tax-list/infrastructure/registerInfrastructure.php';
+  include_once 'v1/tax-list/application/registerApplication.php';
 
   add_action('init', 'add_cors_http_headers');
   function add_cors_http_headers() {
