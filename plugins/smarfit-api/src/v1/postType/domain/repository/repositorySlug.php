@@ -93,17 +93,16 @@
       $i = 0;
 
       if( have_rows('codigos', $post_id) ) {
-          while( have_rows('codigos', $post_id) ) {
-              the_row();
-              $status = get_sub_field('estado', $post_id);
-              if($status[0] !== "true"){
-                update_post_meta($post_id, 'codigos_'.$i.'_estado', 'true');
-                return new WP_REST_Response('Código entregado', 200);
-              }
-              $i++;
+        while( have_rows('codigos', $post_id) ) {
+          the_row();
+          $status = get_sub_field('estado', $post_id);
+          if($status[0] !== "true"){
+            update_post_meta($post_id, 'codigos_'.$i.'_estado', 'true');
+            return new WP_REST_Response('Código entregado', 200);
           }
+          $i++;
+        }
       }
-  
       return new WP_REST_Response('--', 200);
 
     }
