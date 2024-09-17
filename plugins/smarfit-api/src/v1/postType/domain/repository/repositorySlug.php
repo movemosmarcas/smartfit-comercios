@@ -44,6 +44,7 @@
           )
         );
       } 
+
       $loop = new WP_Query($args);
       
       if($this->id){
@@ -89,17 +90,21 @@
     public function put_check() {
 
       $post_id = $this->params['id'];
-      $codigos = $this->params->get_param('codigos'); 
-      $i = $this->params->get_param('iteration');
+      $i = 0;
 
       if( have_rows('codigos', $post_id) ) {
           while( have_rows('codigos', $post_id) ) {
               the_row();
-              update_sub_field(array($i + 1, 'estado'), $codigos[$i]['estado'], $post_id);
+              $status = get_sub_field('estado', $post_id);
+              if($status[0] !== "true"){
+                update_post_meta($post_id, 'codigos_'.$i.'_estado', 'true');
+                return new WP_REST_Response('Código entregado', 200);
+              }
+              $i++;
           }
       }
   
-      return new WP_REST_Response('Estado actualizado', 200);
+      return new WP_REST_Response('--', 200);
 
     }
 
