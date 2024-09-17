@@ -9,8 +9,10 @@
     private $tax = 'category';
     private $terms_id = '';
     private $title = '';
+    private $params;
 
     public function __construct($params){
+      $this->params = $params;
       $this->post_type  = $params->get_param('post_type');
       $this->repositorySlug = $params->get_param('slug');
       $this->only_acf = $params->get_param('only_acf');
@@ -84,5 +86,21 @@
       return $all_pages_data;
     }
 
+    public function put_check() {
+
+      $post_id = $this->params['id'];
+      $codigos = $this->params->get_param('codigos'); 
+      $i = $this->params->get_param('iteration');
+
+      if( have_rows('codigos', $post_id) ) {
+          while( have_rows('codigos', $post_id) ) {
+              the_row();
+              update_sub_field(array($i + 1, 'estado'), $codigos[$i]['estado'], $post_id);
+          }
+      }
+  
+      return new WP_REST_Response('Estado actualizado', 200);
+
+    }
 
 }

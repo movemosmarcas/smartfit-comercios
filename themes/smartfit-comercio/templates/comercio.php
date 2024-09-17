@@ -12,6 +12,11 @@
  
   $current_user = wp_get_current_user();
   $user_id = $current_user->ID;
+
+  if ( current_user_can('administrator') ) {
+    wp_redirect( admin_url() );
+  }
+  
 ?>
 
 <main class="comercio">

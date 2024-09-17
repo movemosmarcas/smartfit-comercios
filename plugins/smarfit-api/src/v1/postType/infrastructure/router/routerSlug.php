@@ -10,7 +10,7 @@
           API_ROUTE, 
           '/(?P<post_type>[a-zA-Z0-9-]+)', 
           array(
-            'methods' => array('GET'),
+            'methods' => array('GET', 'POST', 'PUT', 'DELETE'),
             'callback' => array(new ControllerSlug(), 'apiSlug'),
             'permission_callback' => '__return_true'
           )
