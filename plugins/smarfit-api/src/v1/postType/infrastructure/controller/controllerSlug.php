@@ -6,12 +6,14 @@ class ControllerSlug
 
   public function apiSlug($param) {
     $method = $param->get_method();
-    
-    if( $method === 'GET' ) {
+
+    $update_code = isset($param['update_id']) ? true : false;
+
+    if( $method === 'GET' && $update_code === false ) {
       return $this->getSlug($param);
     }
 
-    if( $method === 'PUT' ) {
+    if( $update_code ) {
       return $this->putCheck($param);
     }
   }
@@ -26,7 +28,6 @@ class ControllerSlug
   public function putCheck($param) {
     $put_check = new RepositorySlug($param);
     return $put_check->put_check();
-
   }
 
 }
