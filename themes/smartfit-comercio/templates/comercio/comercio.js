@@ -22,12 +22,17 @@ const btnTriggerModal = (element) => {
   }) 
 }
 
-const renderResults = (val = false) => {
+const renderResults = (val = "false") => {
+
   closeModal()
   const getVal = document.querySelector('.comercio-val')
-  let htmlToRender = `<div class="comercio-val__content"><h3 class="comercio-val__title">Tipo de Usuario</h3><p class="comercio-val__text">${val ? 'BLACK' : 'NO SE RECONOCE USUARIO BLACK'}</p></div>`
+
+  let htmlToRender = `<div class="comercio-val__content"><h3 class="comercio-val__title">Tipo de Usuario</h3><p class="comercio-val__text">${val.isBlack === "true" ? 'BLACK' : 'NO SE RECONOCE USUARIO BLACK'}</p></div>`
 
   getVal.innerHTML = htmlToRender
+
+  const getModal = document.querySelector('.comercio-modal')
+  getModal.close()
   
 }
 
@@ -39,18 +44,13 @@ const validationBlack = (getSendBtn) => {
     
     const requestOptions = {
       method: "GET",
-      redirect: "follow",
-      Headers: {
-        "Content-Type": "application/json",
-        "Authorization": "Bearer 3952b3501112af42f568221f1c10da54"
-      }
     };
     
-    fetch("https://app.smartfit.com.br/api/v3/validate_black/" + getInputValue.value + "", requestOptions)
+    fetch("https://beneficioscolombia-test.smartfitcolombia.com/index.php//wp-json/smartfit/v1/idblack/" + getInputValue.value + "", requestOptions)
       .then((response) => response.text())
       .then((result) => {
-        console.log(result)
-        renderResults()
+        let resultVal = JSON.parse(result);
+        renderResults(resultVal)
       })
       .catch((error) => {
         console.error(error)
