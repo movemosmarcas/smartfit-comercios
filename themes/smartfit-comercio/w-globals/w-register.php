@@ -7,7 +7,7 @@ $timestamp = time();
 $version = mt_rand(1, $timestamp);
 
 define("VERSION", $version);
-define("PATH_STYLE", 'https://smart-fit-comercios.local/wp-content/themes/smartfit-comercio/');
+define("PATH_STYLE", trailingslashit(get_stylesheet_directory_uri()));
 
 // register global function 
 if (!function_exists('register_custom_elements')) :
