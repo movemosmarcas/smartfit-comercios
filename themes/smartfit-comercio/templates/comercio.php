@@ -53,34 +53,33 @@
                   <h2 class="comercio-body__test-discount"><b><?php the_field('porcentaje_descuento'); ?></b> <?php the_field('texto_descuento'); ?></h2>
                 </div>
                 <div class="comercio-body__desc">
-                  <?php the_field('texto_descriptivo'); ?>
+                  <!-- <?php the_field('texto_descriptivo'); ?> -->
                 </div>
-                <div class="comercio-body__btn">
-                  <p class="comercio-body__btn-val">Validar usuario</p>
+                <div class="comercio-validation">
+                  <div class="comercio-validation__content">
+                    <h3 class="comercio-validation__title">Valida que el usuario sea <b>BLACK</b></h3>
+                    <input type="text" name="cedula" id="cedula" placeholder="Cédula del usuario" class="comercio-validation__input">
+                    <div class="comercio-validation__footer">
+                      <p class="btn js-btn-validate">Validar</p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="comercio-val">
-                
+                <dialog class="comercio-modal">
+                  <div class="comercio-modal__content">
+                    <span class="close-modal__close">x</span>
+                    <div class="comercio-modal__response js-render-result"></div>
+                  </div>
+              </dialog>
               </div>
             </div>
 
           <?php
         }
-
       }
     ?>
 
-    <dialog class="comercio-modal">
-      <div class="comercio-modal__content">
-        <span class="close-modal__close">x</span>
-        <h3 class="comercio-modal__title">Valida que el usuario sea <b>BLACK</b></h3>
-        <input type="text" name="cedula" id="cedula" placeholder="Cédula del usuario" class="comercio-modal__input">
-        <div class="comercio-modal__footer">
-          <p class="btn btn--cancel">Cancelar</p>
-          <p class="btn js-btn-validate">Enviar</p>
-        </div>
-      </div>
-    </dialog>
 
 </main>
 

@@ -22,17 +22,25 @@ const btnTriggerModal = (element) => {
   }) 
 }
 
-const renderResults = (val = "false") => {
+const renderResults = (val) => {
+  const message = document.querySelector('.comercio-body__test-discount')?.textContent
+  const getVal = document.querySelector('.js-render-result')
+  const getModal = document.querySelector('.comercio-modal__content')
+  
+  let htmlToRender = '<div class="comercio-validation__loading">loading...</div>'
+  
+  if(val.length === 0 || val.isBlack === "false") {
+    htmlToRender = `<div class="comercio-validation__black"><h3 class="comercio-validation__no-black--message">Documento no valido</h3><p class="comercio-validation__black--message">No aplica descuento</p></div>`
 
-  closeModal()
-  const getVal = document.querySelector('.comercio-val')
+    getModal.classList.add('comercio-modal__content--no-black')
+  }
 
-  let htmlToRender = `<div class="comercio-val__content"><h3 class="comercio-val__title">Tipo de Usuario</h3><p class="comercio-val__text">${val.isBlack === "true" ? 'BLACK' : 'NO SE RECONOCE USUARIO BLACK'}</p></div>`
-
+  if(val.isBlack === "true") {
+    htmlToRender = `<div class="comercio-validation__black"><h3 class="comercio-validation__black--message">Documento valido</h3><p class="comercio-validation__pargraph">${message}</p></div>`
+    getModal.classList.remove('comercio-modal__content--no-black')
+  }
+  
   getVal.innerHTML = htmlToRender
-
-  const getModal = document.querySelector('.comercio-modal')
-  getModal.close()
   
 }
 
@@ -40,7 +48,7 @@ const renderResults = (val = "false") => {
 const validationBlack = (getSendBtn) => {
 
   getSendBtn.addEventListener('click', (e) => {
-    const getInputValue = document.querySelector('.comercio-modal__input');
+    const getInputValue = document.querySelector('.comercio-validation__input');
     
     const requestOptions = {
       method: "GET",
@@ -67,10 +75,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
   if(getSendBtn){
     validationBlack(getSendBtn);
+    btnTriggerModal(getSendBtn)
   }
 
-  if(getBtnTriggerModal){
-    btnTriggerModal(getBtnTriggerModal)
-  }
+
 
 })

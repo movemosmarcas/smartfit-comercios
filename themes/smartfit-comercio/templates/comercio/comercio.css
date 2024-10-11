@@ -27,13 +27,13 @@
 
 .comercio-body {
   max-width: 80%;
-  margin: 6rem auto;
+  margin: 3rem auto;
   text-align: center;
 }
 
 .comercio-body__test-discount {
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 0rem;
+  opacity: 0;
 }
 
 .comercio-body__desc p {
@@ -49,6 +49,45 @@
   border-radius: 50px;
   cursor: pointer;
 }
+
+.comercio-validation {
+  max-width: 400px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.comercio-validation__title {
+  font-size: 3rem;
+}
+
+.comercio-validation__input {
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  border-radius: 0.5rem;
+  border: solid 1px;
+}
+
+.btn {
+  max-width: 65%;
+  margin: 2rem auto;
+}
+
+.comercio-validation__black--message {
+  font-size: 2.1rem;
+}
+
+.comercio-validation__no-black--message {
+  font-size: 2rem;
+}
+
+.comercio-validation__pargraph{
+  font-size: 1.8rem;
+}
+
+
 
 
 /* modal */
@@ -68,12 +107,18 @@
 }
 
 .comercio-modal__content {
-  background: white;
   padding: 2rem;
   border-radius: 8px;
   position: relative;
   min-width: 320px;
+  background-color: #00B050;
+  color: white;
 }
+
+.comercio-modal__content--no-black {
+  background-color: #FF0000;
+}
+
 
 .comercio-modal__title {
   margin: 0;
