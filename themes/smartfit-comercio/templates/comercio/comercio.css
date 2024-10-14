@@ -3,9 +3,9 @@
 }
 
 .comercio-head {
-  background-size: cover;
-  background-attachment: fixed;
-  height: 45vh;
+    background-attachment: fixed;
+    height: 25vh;
+    background-size: contain;
 }
 
 .comercio-head__content{
