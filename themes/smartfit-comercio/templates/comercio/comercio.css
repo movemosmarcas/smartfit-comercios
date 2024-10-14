@@ -111,6 +111,7 @@
   border-radius: 8px;
   position: relative;
   min-width: 320px;
+  max-width: 375px;
   background-color: #00B050;
   color: white;
 }
