@@ -3,6 +3,12 @@
 /** 
  * Template Name: Home
  */
+
+ if (is_user_logged_in() && !is_admin()) {
+  wp_redirect(home_url('index.php/comercio/'));
+  exit;
+}
+ 
 get_header(); ?>
 
 <div class="home">
@@ -17,7 +23,7 @@ get_header(); ?>
         <?php
             $args = array(
                 'echo'           => true,        
-                'redirect'       => 'https://sma-ben-public-alb-prod-1276458073.us-east-1.elb.amazonaws.com/index.php/comercio/',  
+                'redirect'       => home_url('index.php/comercio/'),  
                 'form_id'        => 'loginform', 
                 'label_username' => __( 'Nombre de usuario' ),
                 'label_password' => __( 'Contraseña' ),
