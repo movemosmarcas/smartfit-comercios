@@ -26,12 +26,15 @@
 
       $args =  array(
         'post_type' => $this->post_type, 
-        'name' => $this->repositorySlug,
         'posts_per_page' => -1
       );
 
+      if( $this->repositorySlug !== 'none'){
+        $args['name'] = $this->repositorySlug;
+      }
+
       if (!empty($this->title)) {
-        $args['s'] = $this->title;
+        $args['s'] = $this->title === 'all' ? '' : $this->title;
       }
     
       if(!empty($this->terms_id) && !empty($this->tax)){
@@ -39,7 +42,7 @@
           array(
             'taxonomy' => $this->tax,
             'field' => 'term_id',
-            'terms' => explode(',', $this->terms_id),
+            'terms' => explode('-', $this->terms_id),
             'operator' => 'AND'
           )
         );
