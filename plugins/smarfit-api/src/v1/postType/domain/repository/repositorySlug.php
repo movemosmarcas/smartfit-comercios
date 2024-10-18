@@ -32,11 +32,12 @@
       if( $this->repositorySlug !== 'none'){
         $args['name'] = $this->repositorySlug;
       }
-
+      
+      var_dump($this->title);
       if (!empty($this->title)) {
         $args['s'] = $this->title === 'all' ? '' : $this->title;
       }
-    
+      
       if(!empty($this->terms_id) && !empty($this->tax)){
         $args['tax_query'] = array(
           array(
