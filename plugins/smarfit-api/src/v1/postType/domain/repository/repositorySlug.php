@@ -56,7 +56,17 @@
       if ($loop->have_posts()) {
           while ($loop->have_posts()) {
               $loop->the_post();
+              $current_date = new DateTime(date('Y-m-d'));
+              $validation_date = get_field('fecha_de_valides', get_the_ID());
+              $fecha_de_until = get_field('fecha_de_until', get_the_ID()) ?? false;
 
+              $validation_startDate = DateTime::createFromFormat('d/m/Y', $validation_date);
+              $validation_endDate = $fecha_de_until 
+                ? DateTime::createFromFormat('d/m/Y', $fecha_de_until) 
+                : new DateTime(date('Y-m-d', strtotime('+1 day')));
+
+              $validation = $current_date > $validation_startDate && $current_date < $validation_endDate;
+              
               if($this->only_acf !== 'true') {
                 $page = array(
                   'id'          => get_the_ID(),
@@ -67,6 +77,7 @@
                   'content'     => get_the_content(),
                   'description' => get_the_excerpt(),
                   'allTaxonomy' => get_terms_heraquical('filtros', get_the_ID()),
+                  'cupon_status' => $validation ? 1 : 0, 
                 );
               }
               
