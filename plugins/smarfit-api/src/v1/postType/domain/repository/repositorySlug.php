@@ -33,7 +33,6 @@
         $args['name'] = $this->repositorySlug;
       }
       
-      var_dump($this->title);
       if (!empty($this->title)) {
         $args['s'] = $this->title === 'all' ? '' : $this->title;
       }
