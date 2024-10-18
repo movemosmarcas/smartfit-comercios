@@ -8,7 +8,7 @@
       function(){
         register_rest_route(
           API_ROUTE, 
-          '/taxonomy/(?P<taxonomy>[a-zA-Z0-9-]+)',
+          '/taxonomy/(?P<taxonomy>[a-zA-Z0-9-]+)/(?P<tax_slug>[a-zA-Z0-9-]+)',
           array(
             'methods' => array('GET'),
             'callback' => array(new ControllerTax(), 'apiSlug'),
