@@ -5,7 +5,7 @@
  */
 
  if (is_user_logged_in() && !is_admin()) {
-  wp_redirect('https://beneficioscolombia.smartfitcolombia.com/index.php/comercio/');
+  wp_redirect(home_url('index.php/comercio/'));
   exit;
 }
  
@@ -23,7 +23,7 @@ get_header(); ?>
         <?php
             $args = array(
                 'echo'           => true,        
-                'redirect'       => 'https://beneficioscolombia.smartfitcolombia.com/index.php/comercio/',  
+                'redirect'       => home_url('index.php/comercio/'),  
                 'form_id'        => 'loginform', 
                 'label_username' => __( 'Nombre de usuario' ),
                 'label_password' => __( 'Contraseña' ),
