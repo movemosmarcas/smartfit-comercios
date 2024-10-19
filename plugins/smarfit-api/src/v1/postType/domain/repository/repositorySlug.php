@@ -30,7 +30,7 @@
       );
 
       if( $this->repositorySlug !== 'none'){
-        $args['name'] = $this->repositorySlug;
+        $args['name'] = str_replace('-', ' ', $this->repositorySlug);
       }
 
       if (!empty($this->title)) {
