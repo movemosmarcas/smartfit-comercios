@@ -26,7 +26,9 @@
 
       $args =  array(
         'post_type' => $this->post_type, 
-        'posts_per_page' => -1
+        'posts_per_page' => -1,
+        'orderby' => 'name',
+        'order' => 'ASC'
       );
 
       if( $this->repositorySlug !== 'none'){
@@ -69,7 +71,8 @@
                 : new DateTime(date('Y-m-d', strtotime('+1 day')));
 
               $validation = $current_date > $validation_startDate && $current_date < $validation_endDate;
-              
+              if($validation_date === '') $validation = false; 
+
               if($this->only_acf !== 'true') {
                 $page = array(
                   'id'          => get_the_ID(),

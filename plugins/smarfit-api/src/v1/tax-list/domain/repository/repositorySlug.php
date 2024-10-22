@@ -29,6 +29,7 @@ class RepositoryTax{
 
     foreach ($childs_terms as $key => $value) {
       $childs_terms[$key] = [
+        'parent_id' => $parent_term->term_id,
         'id' => $value->term_id,
         'name' => $value->name,
         'slug' => $value->slug
