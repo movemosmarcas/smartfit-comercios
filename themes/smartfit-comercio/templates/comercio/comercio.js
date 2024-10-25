@@ -30,13 +30,13 @@ const renderResults = (val) => {
   let htmlToRender = '<div class="comercio-validation__loading">loading...</div>'
   
   if(val.length === 0 || val.isBlack === "false") {
-    htmlToRender = `<div class="comercio-validation__black"><h3 class="comercio-validation__no-black--message">Documento no valido</h3><p class="comercio-validation__black--message">No aplica descuento</p></div>`
+    htmlToRender = `<div class="comercio-validation__black"><h3 class="comercio-validation__no-black--message">Documento no válido</h3><p class="comercio-validation__black--message">No aplica descuento</p></div>`
 
     getModal.classList.add('comercio-modal__content--no-black')
   }
 
   if(val.isBlack === "true") {
-    htmlToRender = `<div class="comercio-validation__black"><h3 class="comercio-validation__black--message">Documento valido</h3><p class="comercio-validation__pargraph">${message}</p></div>`
+    htmlToRender = `<div class="comercio-validation__black"><h3 class="comercio-validation__black--message">Documento válido</h3><p class="comercio-validation__pargraph">${message}</p></div>`
     getModal.classList.remove('comercio-modal__content--no-black')
   }
   
