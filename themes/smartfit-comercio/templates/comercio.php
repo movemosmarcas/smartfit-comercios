@@ -46,9 +46,9 @@ if ( current_user_can('administrator') ) {
 
             <div class="comercio-content">
               <div class="comercio-head" style="background-image: url(<?php the_field('imagen_url'); ?>)">
-                <div class="comercio-head__content">
-                  <h1 class="comercio-head__title"><?php the_title(); ?></h1>
-                </div>
+              </div>
+              <div class="comercio-head__content">
+                <h1 class="comercio-head__title"><?php the_title(); ?></h1>
               </div>
               <div class="comercio-body">
                 <div class="comercio-body__descuento">
