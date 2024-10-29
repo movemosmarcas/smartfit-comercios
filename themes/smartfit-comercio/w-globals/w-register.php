@@ -22,3 +22,19 @@ if (!function_exists('register_custom_elements')) :
 endif;
   
 add_action('wp_enqueue_scripts', 'register_custom_elements', 10);
+
+
+/** login redirect */
+add_filter( 'login_redirect', 'custom_login_redirect', 10, 3 );
+
+function custom_login_redirect( $redirect_to, $request, $user ) {
+    // Define la URL a la que deseas redirigir
+    $custom_redirect_url = 'https://beneficioscolombia.smartfitcolombia.com/index.php/comercio/';
+    
+    // Verifica si el usuario inició sesión correctamente
+    if ( isset( $user->ID ) ) {
+        return $custom_redirect_url; // Redirige a la URL personalizada
+    }
+    
+    return $redirect_to; // Si no, usa la redirección predeterminada
+}
