@@ -29,7 +29,7 @@ add_filter( 'login_redirect', 'custom_login_redirect', 10, 3 );
 
 function custom_login_redirect( $redirect_to, $request, $user ) {
     // Define la URL a la que deseas redirigir
-    $custom_redirect_url = 'https://beneficioscolombia.smartfitcolombia.com/index.php/comercio/';
+    $custom_redirect_url = 'https://beneficioscolombia.smartfitcolombia.com/index.php/index.php/comercio/';
     
     // Verifica si el usuario inició sesión correctamente
     if ( isset( $user->ID ) ) {
