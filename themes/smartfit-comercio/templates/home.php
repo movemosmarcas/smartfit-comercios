@@ -23,7 +23,7 @@ get_header(); ?>
         <?php
             $args = array(
                 'echo'           => true,        
-                'redirect'       => home_url('index.php/comercio/'),  
+                'redirect'       => 'https://beneficioscolombia.smartfitcolombia.com/index.php/index.php/comercio/',  
                 'form_id'        => 'loginform', 
                 'label_username' => __( 'Nombre de usuario' ),
                 'label_password' => __( 'Contraseña' ),
