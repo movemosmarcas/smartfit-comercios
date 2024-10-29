@@ -4,7 +4,7 @@
  */
 
  if (!is_user_logged_in()) {
-  wp_redirect('https://beneficioscolombia.smartfitcolombia.com/');
+  wp_redirect(home_url());
   exit;
 }
  
