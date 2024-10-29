@@ -39,7 +39,6 @@ const renderResults = (val) => {
     htmlToRender = `<div class="comercio-validation__black"><h3 class="comercio-validation__black--message">Documento válido</h3><p class="comercio-validation__pargraph">${message}</p></div>`
     getModal.classList.remove('comercio-modal__content--no-black')
   }
-  
   getVal.innerHTML = htmlToRender
   
 }
