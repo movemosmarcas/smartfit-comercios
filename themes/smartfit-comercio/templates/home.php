@@ -20,20 +20,7 @@ get_header(); ?>
         <h1 class="home__form-title">Beneficios Black</h1>
         <div class="home__form-content">
           <h2 class="home__form-subtitle">Inicia sesión para continuar</h2>
-        <?php
-            $args = array(
-                'echo'           => true,        
-                'redirect'       => 'https://beneficioscolombia.smartfitcolombia.com/index.php/index.php/comercio/',  
-                'form_id'        => 'loginform', 
-                'label_username' => __( 'Nombre de usuario' ),
-                'label_password' => __( 'Contraseña' ),
-                'label_remember' => __( 'Recuérdame' ),
-                'label_log_in'   => __( 'Iniciar sesión' ),
-                'remember'       => true         
-            );
-
-            wp_login_form( $args );
-          ?>
+          <?php the_content(); ?>
         </div>
       </div>
     </div>
