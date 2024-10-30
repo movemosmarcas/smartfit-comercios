@@ -22,7 +22,4 @@
     header('Access-Control-Allow-Origin: *');
     header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
     header('Access-Control-Allow-Headers: Origin, Content-Type, Authorization');
-
-    header('Cache-Control: public, max-age=8600'); 
-    header('Expires: ' . gmdate('D, d M Y H:i:s', time() + 3600) . ' GMT'); 
 }
