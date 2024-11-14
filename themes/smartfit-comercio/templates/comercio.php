@@ -52,7 +52,7 @@ if ( current_user_can('administrator') ) {
               </div>
               <div class="comercio-body">
                 <div class="comercio-body__descuento">
-                  <h2 class="comercio-body__test-discount"><b><?php the_field('porcentaje_descuento'); ?></b> <?php the_field('texto_descuento'); ?></h2>
+                  <h2 class="comercio-body__test-discount"><?php the_field('porcentaje_descuento'); ?></h2>
                 </div>
                 <div class="comercio-body__desc">
                   <!-- <?php the_field('texto_descriptivo'); ?> -->
