@@ -27,7 +27,7 @@
       $args =  array(
         'post_type' => $this->post_type, 
         'posts_per_page' => -1,
-        'orderby' => 'name',
+        'orderby' => 'title',
         'order' => 'ASC'
       );
 
