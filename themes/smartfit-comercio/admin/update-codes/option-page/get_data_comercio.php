@@ -36,12 +36,11 @@
                         'ID' => $post->ID,
                         'title' => sanitize_text_field(get_the_title($post)),
                         'codigo' => $codigo,
-                        'estado' => $new_estado,
+                        'estado' => $new_estado
                     );
                 }
             }
         }
-
 
         return json_encode($flattened_array, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
         // exit;
