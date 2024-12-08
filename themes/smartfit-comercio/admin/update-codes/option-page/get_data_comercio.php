@@ -17,7 +17,15 @@
 
         foreach ($posts_list as $post) {
             $codigos_repeater = get_field('codigos', $post->ID);
+            $postInformation  = array(
+                'ID' => $post->ID,
+                'title' => sanitize_text_field(get_the_title($post)),
+                'codigo' => get_field('code', $post),
+                'times_use' => get_field('times_gave', $post),
+            );
 
+            $flattened_array[] = $postInformation;
+            
             if ($codigos_repeater && is_array($codigos_repeater)) {
                 foreach ($codigos_repeater as $codigo_item) {
                     $codigo = isset($codigo_item['codigo']) 
@@ -36,14 +44,13 @@
                         'ID' => $post->ID,
                         'title' => sanitize_text_field(get_the_title($post)),
                         'codigo' => $codigo,
-                        'estado' => $new_estado
+                        'times_use' => $new_estado,
                     );
                 }
             }
         }
 
-        return json_encode($flattened_array, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
-        // exit;
+        return json_encode($flattened_array);
     }
 }
 

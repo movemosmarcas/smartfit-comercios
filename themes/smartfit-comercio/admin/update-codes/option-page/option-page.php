@@ -37,6 +37,7 @@ function codes_upload_comerce() {
 
   <script>
     const dataReport = <?php echo $decode_data; ?>;
+    console.log(dataReport);
 
     function dowload_report(jsonData, fileName) {
       const headers = Object.keys(jsonData[0]);
