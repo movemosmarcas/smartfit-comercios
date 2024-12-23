@@ -94,11 +94,7 @@ msgstr "j F, Y g:i a"
 #. https://www.php.net/manual/datetime.format.php
 #. translators: Last update date format. See
 #. https://www.php.net/manual/datetime.format.php
-<<<<<<< Updated upstream
 #: wp-includes/class-wp-locale.php:396 wp-includes/media.php:4501
-=======
-#: wp-includes/class-wp-locale.php:396 wp-includes/media.php:4453
->>>>>>> Stashed changes
 #: wp-includes/script-loader.php:158 wp-includes/script-loader.php:468
 #: wp-admin/admin.php:113 wp-admin/edit-form-advanced.php:655
 #: wp-admin/edit-form-advanced.php:662 wp-admin/includes/ajax-actions.php:1639
@@ -283,11 +279,7 @@ msgstr "enero"
 #: wp-includes/category-template.php:162
 #: wp-includes/js/dist/block-editor.js:46173
 #: wp-includes/js/dist/block-editor.js:46178
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:47307
-=======
-#: wp-includes/js/dist/block-editor.js:47306
->>>>>>> Stashed changes
 #: wp-includes/js/dist/edit-site.js:35339 wp-includes/js/dist/editor.js:29667
 #: wp-admin/includes/upgrade.php:173
 #, gp-priority: high
@@ -375,11 +367,7 @@ msgid "Posts pagination"
 msgstr "Paginación de entradas"
 
 #. translators: 1: The text domain. 2: 'init'.
-<<<<<<< Updated upstream
 #: wp-includes/l10n.php:1374
-=======
-#: wp-includes/l10n.php:1351
->>>>>>> Stashed changes
 msgid "Translation loading for the %1$s domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the %2$s action or later."
 msgstr "La carga de traducciones para el dominio %1$s se activó demasiado pronto. Esto suele indicar que algún código en el plugin o tema se está ejecutando antes de tiempo. Las traducciones deben cargarse en la acción %2$s o más tarde."
 
@@ -518,11 +506,7 @@ msgstr "https://www.w3.org/WAI/tutorials/images/decision-tree/"
 
 #. translators: 1: Path pointing to an Interactivity API state property, 2:
 #. Namespace for an Interactivity API store.
-<<<<<<< Updated upstream
 #: wp-includes/interactivity-api/class-wp-interactivity-api.php:605
-=======
-#: wp-includes/interactivity-api/class-wp-interactivity-api.php:604
->>>>>>> Stashed changes
 msgid "Uncaught error executing a derived state callback with path \"%1$s\" and namespace \"%2$s\"."
 msgstr "Error no detectado al ejecutar una devolución de llamada de estado derivado con la ruta «%1$s» y el espacio de nombres «%2$s»."
 
@@ -1758,11 +1742,7 @@ msgctxt "post type general name"
 msgid "Patterns"
 msgstr "Patrones"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:2203 wp-includes/media.php:6033
-=======
-#: wp-includes/media.php:2155 wp-includes/media.php:5985
->>>>>>> Stashed changes
 msgid "An image should not be lazy-loaded and marked as high priority at the same time."
 msgstr "Una imagen no debería ser diferida y marcada como alta prioridad al mismo tiempo."
 
@@ -2031,11 +2011,7 @@ msgid "Sticky"
 msgstr "Fijo"
 
 #: wp-includes/js/dist/block-editor.js:34336
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:69409 wp-admin/widgets-form.php:300
-=======
-#: wp-includes/js/dist/block-editor.js:69408 wp-admin/widgets-form.php:300
->>>>>>> Stashed changes
 msgid "Position"
 msgstr "Posición"
 
@@ -2430,11 +2406,7 @@ msgstr "Tu archivo %1$s utiliza un valor dinámico (%2$s) para la ruta de %3$s. 
 #. https://i18n.svn.wordpress.org/<locale code>/branches/<wp
 #. version>/dist/wp-config-sample.php
 #: wp-includes/class-wp-recovery-mode-cookie-service.php:209
-<<<<<<< Updated upstream
 #: wp-includes/pluggable.php:2501 wp-admin/maint/repair.php:51
-=======
-#: wp-includes/pluggable.php:2491 wp-admin/maint/repair.php:51
->>>>>>> Stashed changes
 msgid "put your unique phrase here"
 msgstr "pon aquí tu frase única"
 
@@ -2881,11 +2853,7 @@ msgstr "Los slugs de la categoría del patrón."
 msgid "The pattern keywords."
 msgstr "Las palabras clave del patrón."
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4968 wp-admin/edit.php:181 wp-admin/post.php:322
-=======
-#: wp-includes/media.php:4920 wp-admin/edit.php:181 wp-admin/post.php:322
->>>>>>> Stashed changes
 #: wp-admin/upload.php:336
 msgid "Error in deleting the attachment."
 msgstr "Error al borrar el adjunto."
@@ -3716,11 +3684,7 @@ msgctxt "post type general name"
 msgid "Templates"
 msgstr "Plantillas"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4957
-=======
-#: wp-includes/media.php:4909
->>>>>>> Stashed changes
 #: wp-admin/includes/class-wp-media-list-table.php:157
 msgctxt "media items"
 msgid "Unattached"
@@ -4613,13 +4577,8 @@ msgstr "Teclea / para elegir un bloque"
 msgid "Layout"
 msgstr "Disposición"
 
-<<<<<<< Updated upstream
 #: wp-includes/post.php:299 wp-includes/js/dist/block-editor.js:54937
 #: wp-includes/js/dist/block-editor.js:63039
-=======
-#: wp-includes/post.php:299 wp-includes/js/dist/block-editor.js:54936
-#: wp-includes/js/dist/block-editor.js:63038
->>>>>>> Stashed changes
 msgid "Patterns list"
 msgstr "Lista de patrones"
 
@@ -5775,11 +5734,7 @@ msgstr "[detenido el procesado del bloque]"
 msgid "This file is only loaded for backward compatibility with SimplePie 1.2.x. Please consider switching to a recent SimplePie version."
 msgstr "Este archivo solo se carga para compatibilidad con versiones anteriores de SimplePie 1.2.x. Plantéate cambiar a una versión reciente de SimplePie."
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4952
-=======
-#: wp-includes/media.php:4904
->>>>>>> Stashed changes
 msgid "&#8592; Go to library"
 msgstr "&#8592; Ir a la biblioteca"
 
@@ -6203,11 +6158,7 @@ msgid "Embed Handler"
 msgstr "Gestor del servicio"
 
 #: wp-includes/script-loader.php:1011 wp-includes/js/media-views.js:3554
-<<<<<<< Updated upstream
 #: wp-admin/js/media.js:247 wp-admin/js/post.js:1300
-=======
-#: wp-admin/js/media.js:247 wp-admin/js/post.js:1298
->>>>>>> Stashed changes
 msgid "The file URL has been copied to your clipboard"
 msgstr "La URL del archivo ha sido copiada a tu portapapeles"
 
@@ -6362,19 +6313,11 @@ msgstr "<strong>Error</strong>: Ha habido un problema al crear la entrada del si
 msgid "<strong>Error:</strong> Site URL you&#8217;ve entered is already taken."
 msgstr "<strong>Error</strong>: La URL del sitio que has introducido ya está en uso."
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4981
 msgid "Attachment details"
 msgstr "Detalles del adjunto"
 
 #: wp-includes/media.php:4926 wp-includes/media.php:4948
-=======
-#: wp-includes/media.php:4933
-msgid "Attachment details"
-msgstr "Detalles del adjunto"
-
-#: wp-includes/media.php:4878 wp-includes/media.php:4900
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:21502
 msgid "Add media"
 msgstr "Añadir medios"
@@ -7093,11 +7036,7 @@ msgctxt "block keyword"
 msgid "links"
 msgstr "enlaces"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:5028 wp-includes/js/dist/block-library.js:63583
-=======
-#: wp-includes/media.php:4980 wp-includes/js/dist/block-library.js:63583
->>>>>>> Stashed changes
 msgid "Select poster image"
 msgstr "Seleccionar la imagen del póster"
 
@@ -7348,40 +7287,23 @@ msgstr "Lista con los tamaños de imagen faltantes en el adjunto."
 msgid "Unknown email address. Check again or try your username."
 msgstr "Dirección de correo electrónico desconocida. Verifique de nuevo o intente utilizar su nombre de usuario."
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:5053
 msgid "Media list"
 msgstr "Lista de medios"
 
 #: wp-includes/media.php:5052
-=======
-#: wp-includes/media.php:5005
-msgid "Media list"
-msgstr "Lista de medios"
-
-#: wp-includes/media.php:5004
->>>>>>> Stashed changes
 msgid "Filter media"
 msgstr "Filtrar multimedia"
 
 #. translators: Hidden accessibility text.
-<<<<<<< Updated upstream
 #: wp-includes/media-template.php:335 wp-includes/js/dist/block-editor.js:62942
-=======
-#: wp-includes/media-template.php:335 wp-includes/js/dist/block-editor.js:62941
->>>>>>> Stashed changes
 #: wp-admin/includes/class-wp-media-list-table.php:44
 msgid "Grid view"
 msgstr "Vista de cuadrícula"
 
 #. translators: Hidden accessibility text.
-<<<<<<< Updated upstream
 #: wp-includes/media-template.php:327 wp-includes/js/dist/block-editor.js:62379
 #: wp-includes/js/dist/block-editor.js:62413
-=======
-#: wp-includes/media-template.php:327 wp-includes/js/dist/block-editor.js:62378
-#: wp-includes/js/dist/block-editor.js:62412
->>>>>>> Stashed changes
 #: wp-admin/includes/class-wp-media-list-table.php:43
 msgid "List view"
 msgstr "Vista de lista"
@@ -7472,19 +7394,11 @@ msgstr "Datos del perfil del usuario."
 msgid "Sorry, marking a user as spam is only supported on Multisite."
 msgstr "Lo siento, marcar a un usuario como spam solo es compatible en multisitio."
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:5612
 msgid "User&#8217;s media data."
 msgstr "Datos de los medios del usuario."
 
 #: wp-includes/media.php:4978
-=======
-#: wp-includes/media.php:5564
-msgid "User&#8217;s media data."
-msgstr "Datos de los medios del usuario."
-
-#: wp-includes/media.php:4930
->>>>>>> Stashed changes
 msgid "No media items found. Try a different search."
 msgstr "No se han encontrado elementos de medios. Prueba con una búsqueda diferente."
 
@@ -7533,11 +7447,7 @@ msgstr[0] "Archivo <span class=\"count\">(%s)</span>"
 msgstr[1] "Archivos <span class=\"count\">(%s)</span>"
 
 #. translators: %d: Number of attachments found in a search.
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4976
-=======
-#: wp-includes/media.php:4928
->>>>>>> Stashed changes
 msgid "Number of media items found: %d"
 msgstr "Número de elementos de medios encontrados: %d"
 
@@ -7683,11 +7593,7 @@ msgstr "Título del audio..."
 msgid "Your browser cannot upload files"
 msgstr "Tu navegador no puede subir archivos"
 
-<<<<<<< Updated upstream
 #: wp-includes/class-wp-image-editor-gd.php:296
-=======
-#: wp-includes/class-wp-image-editor-gd.php:303
->>>>>>> Stashed changes
 #: wp-includes/class-wp-image-editor-imagick.php:568
 msgid "Cannot resize the image. Both width and height are not set."
 msgstr "No se puede cambiar el tamaño de la imagen. No están establecidas la anchura y la altura."
@@ -7797,11 +7703,7 @@ msgid "[%s] Login Details"
 msgstr "[%s]  Detalles de acceso"
 
 #: wp-includes/media-template.php:584 wp-includes/media-template.php:751
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4965 wp-admin/comment.php:139
-=======
-#: wp-includes/media.php:4917 wp-admin/comment.php:139
->>>>>>> Stashed changes
 #: wp-admin/edit-form-comment.php:242
 #: wp-admin/includes/class-wp-comments-list-table.php:383
 #: wp-admin/includes/class-wp-media-list-table.php:187
@@ -7812,11 +7714,7 @@ msgid "Move to Trash"
 msgstr "Mover a Papelera"
 
 #: wp-includes/media-template.php:582 wp-includes/media-template.php:749
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4966
-=======
-#: wp-includes/media.php:4918
->>>>>>> Stashed changes
 msgid "Restore from Trash"
 msgstr "Restaurar de la papelera"
 
@@ -7875,11 +7773,7 @@ msgstr "[%s] Correo electrónico del administrador de red modificado"
 msgid "[%s] Network Admin Email Change Request"
 msgstr "[%s] Solicitud de Cambio de Correo Electrónico del Administrador de Red"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4992
-=======
-#: wp-includes/media.php:4944
->>>>>>> Stashed changes
 msgid "Edit gallery"
 msgstr "Editar galería"
 
@@ -8283,11 +8177,7 @@ msgstr "Da un énfasis visual al texto citado. «Al citar a otros, nos citamos a
 msgid "Pagination"
 msgstr "Paginación"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:5004 wp-includes/js/dist/block-library.js:26996
-=======
-#: wp-includes/media.php:4956 wp-includes/js/dist/block-library.js:26996
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:26997
 msgid "Edit image"
 msgstr "Editar imagen"
@@ -8353,11 +8243,7 @@ msgstr "¡Copiado!"
 msgid "Submit for Review"
 msgstr "Enviar a revisión"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:5002
-=======
-#: wp-includes/media.php:4954
->>>>>>> Stashed changes
 msgid "Replace image"
 msgstr "Reemplazar imagen"
 
@@ -8370,11 +8256,7 @@ msgstr "Reemplazar imagen"
 msgid "Order"
 msgstr "Orden"
 
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/components.js:57709
-=======
-#: wp-includes/js/dist/components.js:57707
->>>>>>> Stashed changes
 #: wp-admin/includes/edit-tag-messages.php:14
 msgid "Item added."
 msgstr "Elemento añadido."
@@ -8820,11 +8702,7 @@ msgstr "ID del usuario"
 msgid "WordPress User"
 msgstr "Usuario de WordPress"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:5550
-=======
-#: wp-includes/media.php:5502
->>>>>>> Stashed changes
 msgid "WordPress Media"
 msgstr "Medios de WordPress"
 
@@ -8990,11 +8868,7 @@ msgstr "Limitar el resultado a usuarios considerados autores."
 msgid "Sorry, you are not allowed to query users by this parameter."
 msgstr "Lo siento, no tienes permisos para buscar usuarios con este parámetro."
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4958
-=======
-#: wp-includes/media.php:4910
->>>>>>> Stashed changes
 #: wp-admin/includes/class-wp-media-list-table.php:162
 msgctxt "media items"
 msgid "Mine"
@@ -9802,11 +9676,7 @@ msgid "Time to add some links! Click &#8220;%s&#8221; to start putting pages, ca
 msgstr "¡Es hora de añadir algunos enlaces! Haz clic en «%s» para empezar a poner páginas, categorías y enlaces personalizados en tu menú. Añade tantos elementos como quieras."
 
 #: wp-includes/customize/class-wp-customize-media-control.php:254
-<<<<<<< Updated upstream
 #: wp-includes/media.php:5007
-=======
-#: wp-includes/media.php:4959
->>>>>>> Stashed changes
 msgid "Choose image"
 msgstr "Elige la imagen"
 
@@ -10155,11 +10025,7 @@ msgctxt "label for button in the audio widget"
 msgid "Add Audio"
 msgstr "Añadir audio"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4518 wp-admin/includes/media.php:3328
-=======
-#: wp-includes/media.php:4470 wp-admin/includes/media.php:3328
->>>>>>> Stashed changes
 msgid "(no author)"
 msgstr "(sin autor)"
 
@@ -10444,19 +10310,11 @@ msgid "Remove featured image"
 msgstr "Quitar imagen destacada"
 
 #. translators: 1: Suggested width number, 2: Suggested height number.
-<<<<<<< Updated upstream
 #: wp-includes/media-template.php:307 wp-includes/media.php:5014
 msgid "Suggested image dimensions: %1$s by %2$s pixels."
 msgstr "Dimensiones de imagen sugeridas: %1$s por %2$s píxeles."
 
 #: wp-includes/media.php:4962
-=======
-#: wp-includes/media-template.php:307 wp-includes/media.php:4966
-msgid "Suggested image dimensions: %1$s by %2$s pixels."
-msgstr "Dimensiones de imagen sugeridas: %1$s por %2$s píxeles."
-
-#: wp-includes/media.php:4914
->>>>>>> Stashed changes
 msgid ""
 "You are about to permanently delete these items from your site.\n"
 "This action cannot be undone.\n"
@@ -10466,11 +10324,7 @@ msgstr ""
 "Esta acción es irreversible.\n"
 "'Cancelar' para parar, 'Aceptar' para borrar."
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4961
-=======
-#: wp-includes/media.php:4913
->>>>>>> Stashed changes
 msgid ""
 "You are about to permanently delete this item from your site.\n"
 "This action cannot be undone.\n"
@@ -11178,11 +11032,7 @@ msgstr "Ruta base REST para la taxonomía."
 msgid "+ %s"
 msgstr "+ %s"
 
-<<<<<<< Updated upstream
 #: wp-includes/l10n.php:1739
-=======
-#: wp-includes/l10n.php:1716
->>>>>>> Stashed changes
 msgctxt "default site language"
 msgid "Site Default"
 msgstr "Predeterminado del sitio"
@@ -12132,11 +11982,7 @@ msgctxt "next set of posts"
 msgid "Next"
 msgstr "Siguiente"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4974
-=======
-#: wp-includes/media.php:4926
->>>>>>> Stashed changes
 msgid "Search media items..."
 msgstr "Buscar medios..."
 
@@ -12303,11 +12149,7 @@ msgid "Learn more about CSS"
 msgstr "Aprende más sobre CSS"
 
 #: wp-includes/class-wp-customize-manager.php:5748
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:70932
-=======
-#: wp-includes/js/dist/block-editor.js:70931
->>>>>>> Stashed changes
 #: wp-includes/js/dist/edit-site.js:12014
 #: wp-includes/js/dist/edit-site.js:12018
 #: wp-includes/js/dist/edit-site.js:23442
@@ -12699,11 +12541,7 @@ msgstr "Enlace seleccionado."
 msgid "%s is required to strip image meta."
 msgstr "%s es obligatorio para quitar la meta de la imagen."
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4977
-=======
-#: wp-includes/media.php:4929
->>>>>>> Stashed changes
 msgid "No media items found."
 msgstr "No se han encontrado archivos de medios."
 
@@ -13327,11 +13165,7 @@ msgid "Nov"
 msgstr "Nov"
 
 #. translators: %s: Playlist item title.
-<<<<<<< Updated upstream
 #: wp-includes/media.php:2942 wp-includes/media.php:2963
-=======
-#: wp-includes/media.php:2894 wp-includes/media.php:2915
->>>>>>> Stashed changes
 msgctxt "playlist item title"
 msgid "&#8220;%s&#8221;"
 msgstr "&#8220;%s&#8221;"
@@ -14276,11 +14110,7 @@ msgstr ""
 msgid "Post type names must be between 1 and 20 characters in length."
 msgstr "Los nombres de un tipo de contenido deben tener entre 1 y 20 caracteres de longitud."
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4940
-=======
-#: wp-includes/media.php:4892
->>>>>>> Stashed changes
 msgid "Drag and drop to reorder media files."
 msgstr "Arrastra y suelta para reordenar archivos de medios."
 
@@ -14450,11 +14280,7 @@ msgstr "%s debe definir una conexión de base de datos para utilizarla con el es
 msgid "You need to pass an array of types."
 msgstr "Tienes que pasar una matriz de tipos."
 
-<<<<<<< Updated upstream
 #: wp-includes/l10n.php:1768
-=======
-#: wp-includes/l10n.php:1745
->>>>>>> Stashed changes
 msgctxt "translations"
 msgid "Available"
 msgstr "Disponible"
@@ -14472,20 +14298,12 @@ msgstr "Comentario: %s"
 msgid "URL: %s"
 msgstr "URL: %s"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4959
-=======
-#: wp-includes/media.php:4911
->>>>>>> Stashed changes
 msgctxt "noun"
 msgid "Trash"
 msgstr "Papelera"
 
-<<<<<<< Updated upstream
 #: wp-includes/l10n.php:1731
-=======
-#: wp-includes/l10n.php:1708
->>>>>>> Stashed changes
 msgctxt "translations"
 msgid "Installed"
 msgstr "Instalada"
@@ -14505,11 +14323,7 @@ msgstr "Artículos siguientes"
 
 #: wp-includes/script-loader.php:1976
 #: wp-includes/js/dist/block-library.js:43816
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/components.js:58398
-=======
-#: wp-includes/js/dist/components.js:58396
->>>>>>> Stashed changes
 msgid "Previous"
 msgstr "Previo"
 
@@ -14635,17 +14449,10 @@ msgstr "Valor no válido %1$s para %2$s. El valor esperado debería estar entre 
 #: wp-includes/class-wp-editor.php:1277
 #: wp-includes/js/dist/block-editor.js:27019
 #: wp-includes/js/dist/block-editor.js:27468
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:69481
 #: wp-includes/js/dist/block-editor.js:69953
 #: wp-includes/js/dist/block-editor.js:70071
 #: wp-includes/js/dist/block-editor.js:71129
-=======
-#: wp-includes/js/dist/block-editor.js:69480
-#: wp-includes/js/dist/block-editor.js:69952
-#: wp-includes/js/dist/block-editor.js:70070
-#: wp-includes/js/dist/block-editor.js:71128
->>>>>>> Stashed changes
 #: wp-includes/js/dist/edit-site.js:20881
 msgid "Color"
 msgstr "Color"
@@ -14719,11 +14526,7 @@ msgstr "Medios"
 msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
 msgstr "<strong>¡Has actualizado WordPress correctamente!</strong> Por favor, accede de nuevo para ver las novedades."
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4963
-=======
-#: wp-includes/media.php:4915
->>>>>>> Stashed changes
 msgid ""
 "You are about to trash these items.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -14731,19 +14534,11 @@ msgstr ""
 "Estás a punto de enviar a la papelera estos elementos.\n"
 "  'Cancelar' para parar, 'OK' para borrarlos."
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4964
 msgid "Bulk select"
 msgstr "Selección múltiple"
 
 #: wp-includes/class-wp-customize-nav-menus.php:505 wp-admin/js/nav-menu.js:837
-=======
-#: wp-includes/media.php:4916
-msgid "Bulk select"
-msgstr "Selección múltiple"
-
-#: wp-includes/class-wp-customize-nav-menus.php:505 wp-admin/js/nav-menu.js:825
->>>>>>> Stashed changes
 msgctxt "missing menu item navigation label"
 msgid "(no label)"
 msgstr "(sin etiqueta)"
@@ -14769,20 +14564,12 @@ msgstr "Tipo de archivo:"
 msgid "Dimensions:"
 msgstr "Dimensiones:"
 
-<<<<<<< Updated upstream
 #: wp-includes/class-wp-post-type.php:996 wp-includes/media.php:4970
-=======
-#: wp-includes/class-wp-post-type.php:996 wp-includes/media.php:4922
->>>>>>> Stashed changes
 msgid "Filter by date"
 msgstr "Filtrar por fecha"
 
 #. translators: Hidden accessibility text.
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4971
-=======
-#: wp-includes/media.php:4923
->>>>>>> Stashed changes
 #: wp-admin/includes/class-wp-media-list-table.php:284
 msgid "Filter by type"
 msgstr "Filtrar por tipo"
@@ -14791,20 +14578,12 @@ msgstr "Filtrar por tipo"
 msgid "This site is no longer available."
 msgstr "Este sitio ya no está disponible."
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4954 wp-admin/includes/class-wp-list-table.php:770
-=======
-#: wp-includes/media.php:4906 wp-admin/includes/class-wp-list-table.php:770
->>>>>>> Stashed changes
 #: wp-admin/includes/media.php:2859
 msgid "All dates"
 msgstr "Todas las fechas"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:3322
-=======
-#: wp-includes/media.php:3274
->>>>>>> Stashed changes
 msgid "Bitrate Mode"
 msgstr "Modo de bitrate"
 
@@ -14849,11 +14628,7 @@ msgstr "Leer más..."
 msgid "Your browser does not support direct access to the clipboard. Please use keyboard shortcuts or your browser&#8217;s edit menu instead."
 msgstr "Tu navegador no soporta acceso directo al portapapeles. Por favor, usa los atajos de teclado o el menú de edición de tu navegador."
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:3321
-=======
-#: wp-includes/media.php:3273
->>>>>>> Stashed changes
 msgid "Bitrate"
 msgstr "Bitrate"
 
@@ -14871,11 +14646,7 @@ msgstr "Editar el siguiente medio"
 msgid "Edit previous media item"
 msgstr "Editar el medio anterior"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4972 wp-includes/media.php:4973
-=======
-#: wp-includes/media.php:4924 wp-includes/media.php:4925
->>>>>>> Stashed changes
 msgid "Search media"
 msgstr "Buscar multimedia"
 
@@ -14943,26 +14714,17 @@ msgid "Custom Size"
 msgstr "Tamaño personalizado"
 
 #: wp-includes/media-template.php:530 wp-includes/media-template.php:782
-<<<<<<< Updated upstream
 #: wp-includes/media.php:3312
-=======
-#: wp-includes/media.php:3264
->>>>>>> Stashed changes
 msgid "Artist"
 msgstr "Artista"
 
 #. translators: Hidden accessibility text.
 #: wp-includes/customize/class-wp-customize-date-time-control.php:164
-<<<<<<< Updated upstream
 #: wp-includes/media.php:3318 wp-includes/js/dist/block-library.js:1799
-=======
-#: wp-includes/media.php:3270 wp-includes/js/dist/block-library.js:1799
->>>>>>> Stashed changes
 #: wp-includes/js/dist/components.js:54935 wp-admin/includes/template.php:856
 msgid "Year"
 msgstr "Año"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:5039
 msgid "Add to Audio Playlist"
 msgstr "Añadir a la lista de reproducción de audio"
@@ -14992,55 +14754,16 @@ msgid "There has been an error cropping your image."
 msgstr "Se ha producido un error recortando la imagen."
 
 #: wp-includes/media.php:3319
-=======
-#: wp-includes/media.php:4991
-msgid "Add to Audio Playlist"
-msgstr "Añadir a la lista de reproducción de audio"
-
-#: wp-includes/media.php:4990
-msgid "Add to audio playlist"
-msgstr "Añadir a la lista de reproducción de audio"
-
-#: wp-includes/media.php:4989
-msgid "Update audio playlist"
-msgstr "Actualizar lista de reproducción de audio"
-
-#: wp-includes/media.php:4988
-msgid "Insert audio playlist"
-msgstr "Insertar lista de reproducción de audio"
-
-#: wp-includes/media.php:4987
-msgid "&#8592; Cancel audio playlist"
-msgstr "&#8592; Cancelar lista de reproducción de audio"
-
-#: wp-includes/media.php:4986
-msgid "Edit audio playlist"
-msgstr "Editar lista de reproducción de audio"
-
-#: wp-includes/media.php:4967
-msgid "There has been an error cropping your image."
-msgstr "Se ha producido un error recortando la imagen."
-
-#: wp-includes/media.php:3271
->>>>>>> Stashed changes
 msgctxt "video or audio"
 msgid "Length"
 msgstr "Duración"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:3317
-=======
-#: wp-includes/media.php:3269
->>>>>>> Stashed changes
 msgid "Genre"
 msgstr "Género"
 
 #: wp-includes/media-template.php:531 wp-includes/media-template.php:783
-<<<<<<< Updated upstream
 #: wp-includes/media.php:3313
-=======
-#: wp-includes/media.php:3265
->>>>>>> Stashed changes
 msgid "Album"
 msgstr "Álbum"
 
@@ -15126,11 +14849,7 @@ msgstr "Automático"
 msgid "Tracks (subtitles, captions, descriptions, chapters, or metadata)"
 msgstr "Pistas (subtítulos, leyendas, descripciones, capítulos o metadatos)"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:5012
-=======
-#: wp-includes/media.php:4964
->>>>>>> Stashed changes
 msgid "Cropping&hellip;"
 msgstr "Recortando&hellip;"
 
@@ -15364,11 +15083,7 @@ msgstr "Cuadrada"
 msgid "Add alternate sources for maximum HTML5 playback"
 msgstr "Añadir fuentes alternativas para mejorar la reproducción en HTML5"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:5010
-=======
-#: wp-includes/media.php:4962
->>>>>>> Stashed changes
 msgid "Crop image"
 msgstr "Recortar imagen"
 
@@ -15379,17 +15094,10 @@ msgstr "Recortar imagen"
 #: wp-includes/class-wp-customize-widgets.php:915
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:75
 #: wp-includes/customize/class-wp-customize-themes-panel.php:72
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4933 wp-includes/js/dist/block-editor.js:47411
 #: wp-includes/js/dist/block-editor.js:47449
 #: wp-includes/js/dist/block-library.js:35288
 #: wp-includes/js/dist/components.js:59434 wp-includes/js/dist/edit-post.js:322
-=======
-#: wp-includes/media.php:4885 wp-includes/js/dist/block-editor.js:47410
-#: wp-includes/js/dist/block-editor.js:47448
-#: wp-includes/js/dist/block-library.js:35288
-#: wp-includes/js/dist/components.js:59432 wp-includes/js/dist/edit-post.js:322
->>>>>>> Stashed changes
 #: wp-includes/js/dist/edit-site.js:12114
 #: wp-includes/js/dist/edit-site.js:14510
 #: wp-includes/js/dist/edit-site.js:15060
@@ -15404,11 +15112,7 @@ msgctxt "Search widget"
 msgid "Search"
 msgstr "Buscar"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:5046
-=======
-#: wp-includes/media.php:4998
->>>>>>> Stashed changes
 msgid "Insert video playlist"
 msgstr "Insertar lista de reproducción de vídeo"
 
@@ -15416,19 +15120,11 @@ msgstr "Insertar lista de reproducción de vídeo"
 msgid "Show Artist Name in Tracklist"
 msgstr "Mostrar nombre de artista en la lista de pistas"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:5019
 msgid "Replace audio"
 msgstr "Reemplazar audio"
 
 #: wp-includes/media.php:5044
-=======
-#: wp-includes/media.php:4971
-msgid "Replace audio"
-msgstr "Reemplazar audio"
-
-#: wp-includes/media.php:4996
->>>>>>> Stashed changes
 msgid "Edit video playlist"
 msgstr "Editar lista de reproducción de vídeo"
 
@@ -15445,7 +15141,6 @@ msgstr "El argumento de la consulta %s debe tener un marcador de posición."
 msgid "Invalid menu ID."
 msgstr "ID de menú no válido"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:5049
 msgid "Add to video Playlist"
 msgstr "Añadir a lista de reproducción de vídeo"
@@ -15520,82 +15215,6 @@ msgid "Create a new video playlist"
 msgstr "Crear una nueva lista de reproducción de vídeos"
 
 #: wp-includes/media.php:4950
-=======
-#: wp-includes/media.php:5001
-msgid "Add to video Playlist"
-msgstr "Añadir a lista de reproducción de vídeo"
-
-#: wp-includes/media.php:5000
-msgid "Add to video playlist"
-msgstr "Añadir a lista de reproducción de vídeos"
-
-#: wp-includes/media.php:4999
-msgid "Update video playlist"
-msgstr "Actualizar lista de reproducción de vídeos"
-
-#: wp-includes/media.php:4997
-msgid "&#8592; Cancel video playlist"
-msgstr "&#8592; Cancelar lista de reproducción de vídeos"
-
-#: wp-includes/media.php:4995
-msgid "Create video playlist"
-msgstr "Crear lista de reproducción de vídeos"
-
-#: wp-includes/media.php:4994
-msgid "Drag and drop to reorder videos."
-msgstr "Arrastrar y soltar para reordenar vídeos."
-
-#: wp-includes/media.php:4985
-msgid "Create audio playlist"
-msgstr "Crear lista de reproducción de audios"
-
-#: wp-includes/media.php:4984
-msgid "Drag and drop to reorder tracks."
-msgstr "Arrastrar y soltar para reordenar pistas."
-
-#: wp-includes/media.php:4981
-msgid "Add subtitles"
-msgstr "Añadir subtítulos"
-
-#: wp-includes/media.php:4977
-msgid "Replace video"
-msgstr "Reemplazar vídeo"
-
-#: wp-includes/media.php:4976
-msgid "Video details"
-msgstr "Detalles del vídeo"
-
-#: wp-includes/media.php:4972
-msgid "Add audio source"
-msgstr "Añadir origen del audio"
-
-#: wp-includes/media.php:4970
-msgid "Audio details"
-msgstr "Detalles del audio"
-
-#: wp-includes/media.php:4963
-msgid "Crop your image"
-msgstr "Recorta tu imagen"
-
-#: wp-includes/media.php:4961
-msgid "Skip cropping"
-msgstr "No recortar"
-
-#: wp-includes/media.php:4960
-msgid "Select and crop"
-msgstr "Selecciona y recorta"
-
-#: wp-includes/media.php:4955 wp-includes/media.php:4973
-#: wp-includes/media.php:4979
-msgid "Cancel edit"
-msgstr "Cancela la edición"
-
-#: wp-includes/media.php:4903
-msgid "Create a new video playlist"
-msgstr "Crear una nueva lista de reproducción de vídeos"
-
-#: wp-includes/media.php:4902
->>>>>>> Stashed changes
 msgid "Create a new playlist"
 msgstr "Crear una nueva lista de reproducción"
 
@@ -15633,19 +15252,11 @@ msgstr "Ajuste de listas de reproducción"
 msgid "Show Tracklist"
 msgstr "Mostrar lista de reproducción"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:5001
 msgid "Image details"
 msgstr "Detalles de la imagen"
 
 #: wp-includes/media.php:5026
-=======
-#: wp-includes/media.php:4953
-msgid "Image details"
-msgstr "Detalles de la imagen"
-
-#: wp-includes/media.php:4978
->>>>>>> Stashed changes
 msgid "Add video source"
 msgstr "Añadir origen del vídeo"
 
@@ -15725,11 +15336,7 @@ msgstr "Insertar fecha/hora"
 msgid "Paste as text"
 msgstr "Pegar como texto"
 
-<<<<<<< Updated upstream
 #: wp-includes/media-template.php:1288 wp-includes/media.php:4931
-=======
-#: wp-includes/media-template.php:1288 wp-includes/media.php:4883
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-editor.js:23996
 #: wp-includes/js/dist/block-library.js:13943
 #: wp-includes/js/dist/block-library.js:26309
@@ -15857,15 +15464,9 @@ msgstr "Selecciona un area al que mover el widget."
 #. translators: Hidden accessibility text.
 #: wp-includes/class-wp-customize-nav-menus.php:1096
 #: wp-includes/class-wp-customize-widgets.php:723
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:50218
 #: wp-includes/js/dist/block-editor.js:50219
 #: wp-includes/js/dist/block-editor.js:53683
-=======
-#: wp-includes/js/dist/block-editor.js:50217
-#: wp-includes/js/dist/block-editor.js:50218
-#: wp-includes/js/dist/block-editor.js:53682
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:34993
 #: wp-includes/js/dist/edit-site.js:39394
 #: wp-admin/includes/class-walker-nav-menu-edit.php:148
@@ -15876,15 +15477,9 @@ msgstr "Subir"
 #. translators: Hidden accessibility text.
 #: wp-includes/class-wp-customize-nav-menus.php:1097
 #: wp-includes/class-wp-customize-widgets.php:722
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:50231
 #: wp-includes/js/dist/block-editor.js:50232
 #: wp-includes/js/dist/block-editor.js:53688
-=======
-#: wp-includes/js/dist/block-editor.js:50230
-#: wp-includes/js/dist/block-editor.js:50231
-#: wp-includes/js/dist/block-editor.js:53687
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:35000
 #: wp-includes/js/dist/edit-site.js:39401
 #: wp-admin/includes/class-walker-nav-menu-edit.php:165
@@ -15956,13 +15551,8 @@ msgstr "https://es.wordpress.org/support/forum/comunidad/peticiones-y-feedback/"
 msgid "Insert Read More tag"
 msgstr "Insertar la etiqueta «Leer más»"
 
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:68629
 #: wp-includes/js/dist/block-editor.js:68637
-=======
-#: wp-includes/js/dist/block-editor.js:68628
-#: wp-includes/js/dist/block-editor.js:68636
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:33493
 #: wp-includes/js/dist/customize-widgets.js:947
 #: wp-includes/js/dist/edit-widgets.js:4127 wp-includes/js/dist/editor.js:25802
@@ -16334,22 +15924,14 @@ msgstr "ID de usuario no válido."
 msgid "Random Order"
 msgstr "Orden aleatorio"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4984 wp-includes/js/dist/block-editor.js:66145
-=======
-#: wp-includes/media.php:4936 wp-includes/js/dist/block-editor.js:66144
->>>>>>> Stashed changes
 msgid "Insert from URL"
 msgstr "Insertar desde URL"
 
 #. translators: This is a would-be plural string used in the media manager. If
 #. there is not a word you can use in your language to avoid issues with the
 #. lack of plural support here, turn it into "selected: %d" then translate it.
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4939
-=======
-#: wp-includes/media.php:4891
->>>>>>> Stashed changes
 msgid "%d selected"
 msgstr "%d seleccionados"
 
@@ -16358,11 +15940,7 @@ msgctxt "Links widget"
 msgid "Random"
 msgstr "Aleatorio"
 
-<<<<<<< Updated upstream
 #: wp-includes/media-template.php:1537 wp-includes/media.php:4955
-=======
-#: wp-includes/media-template.php:1537 wp-includes/media.php:4907
->>>>>>> Stashed changes
 #: wp-admin/includes/ajax-actions.php:2258
 #: wp-admin/includes/ajax-actions.php:3930
 #: wp-admin/includes/class-wp-list-table.php:372
@@ -16370,11 +15948,7 @@ msgstr "Aleatorio"
 msgid "No items found."
 msgstr "No se han encontrado elementos."
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4998 wp-includes/js/dist/block-library.js:29216
-=======
-#: wp-includes/media.php:4950 wp-includes/js/dist/block-library.js:29216
->>>>>>> Stashed changes
 msgid "Reverse order"
 msgstr "Orden inverso"
 
@@ -16384,11 +15958,7 @@ msgid "Deselect"
 msgstr "Anular selección"
 
 #: wp-includes/media-template.php:587 wp-includes/media-template.php:754
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4967
-=======
-#: wp-includes/media.php:4919
->>>>>>> Stashed changes
 #: wp-admin/includes/class-wp-comments-list-table.php:381
 #: wp-admin/includes/class-wp-media-list-table.php:185
 #: wp-admin/includes/class-wp-media-list-table.php:190
@@ -16409,11 +15979,7 @@ msgstr "Descartar los errores"
 msgid "Uploading"
 msgstr "Subiendo"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4202
-=======
-#: wp-includes/media.php:4154
->>>>>>> Stashed changes
 msgid "No editor could be selected."
 msgstr "No se pudo elegir ningún editor."
 
@@ -16436,11 +16002,7 @@ msgid "Manage Video"
 msgstr "Administrar vídeo"
 
 #: wp-includes/widgets/class-wp-widget-media-video.php:28
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:66340
-=======
-#: wp-includes/js/dist/block-editor.js:66339
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:47496
 #: wp-includes/js/dist/block-library.js:63505
 #: wp-includes/js/dist/editor.js:15531
@@ -16471,11 +16033,7 @@ msgid "Insert into page"
 msgstr "Insertar en la página"
 
 #: wp-includes/widgets/class-wp-widget-media-audio.php:28
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:66336
-=======
-#: wp-includes/js/dist/block-editor.js:66335
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:47472
 #: wp-includes/js/dist/editor.js:15507 wp-includes/js/dist/editor.js:22113
 msgid "Audio"
@@ -16485,11 +16043,7 @@ msgstr "Audio"
 msgid "Uploaded to this post"
 msgstr "Subido a esta entrada"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4953
-=======
-#: wp-includes/media.php:4905
->>>>>>> Stashed changes
 #: wp-admin/includes/class-wp-media-list-table.php:134
 msgid "All media items"
 msgstr "Todos los medios"
@@ -16526,11 +16080,7 @@ msgstr "Detalles del adjunto"
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
 #: wp-includes/block-editor.php:173 wp-includes/class-wp-theme-json.php:4176
 #: wp-includes/media-template.php:918 wp-includes/media-template.php:998
-<<<<<<< Updated upstream
 #: wp-includes/media-template.php:1189 wp-includes/media.php:4566
-=======
-#: wp-includes/media-template.php:1189 wp-includes/media.php:4518
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-editor.js:8187
 #: wp-includes/js/dist/block-library.js:56254
 #: wp-includes/js/dist/components.js:57156
@@ -16539,19 +16089,11 @@ msgstr "Detalles del adjunto"
 msgid "Large"
 msgstr "Grande"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4993
 msgid "&#8592; Cancel gallery"
 msgstr "&#8592; Cancelar galería"
 
 #: wp-includes/media.php:4944
-=======
-#: wp-includes/media.php:4945
-msgid "&#8592; Cancel gallery"
-msgstr "&#8592; Cancelar galería"
-
-#: wp-includes/media.php:4896
->>>>>>> Stashed changes
 msgid "Upload images"
 msgstr "Subir imágenes"
 
@@ -16567,19 +16109,11 @@ msgstr "Ajustes de visualización de adjuntos"
 msgid "WordPress &rsaquo; Success"
 msgstr "WordPress &rsaquo; Conseguido"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4943
 msgid "Upload files"
 msgstr "Subir archivos"
 
 #: wp-includes/media.php:4994 wp-admin/includes/media.php:2690
-=======
-#: wp-includes/media.php:4895
-msgid "Upload files"
-msgstr "Subir archivos"
-
-#: wp-includes/media.php:4946 wp-admin/includes/media.php:2690
->>>>>>> Stashed changes
 msgid "Insert gallery"
 msgstr "Inserta galería"
 
@@ -16589,19 +16123,11 @@ msgstr "Inserta galería"
 msgid "Drop files to upload"
 msgstr "Arrastra archivos para subirlos"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4991
 msgid "Create gallery"
 msgstr "Crear galería"
 
 #: wp-includes/media.php:4947 wp-includes/js/dist/block-editor.js:66408
-=======
-#: wp-includes/media.php:4943
-msgid "Create gallery"
-msgstr "Crear galería"
-
-#: wp-includes/media.php:4899 wp-includes/js/dist/block-editor.js:66407
->>>>>>> Stashed changes
 #: wp-admin/includes/media.php:21 wp-admin/upload.php:204
 #: wp-admin/upload.php:358
 msgid "Media Library"
@@ -16676,11 +16202,7 @@ msgstr "Enlazado a"
 msgid "Media File"
 msgstr "Archivo de medios"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4995
-=======
-#: wp-includes/media.php:4947
->>>>>>> Stashed changes
 msgid "Update gallery"
 msgstr "Actualizar galería"
 
@@ -16696,11 +16218,7 @@ msgstr "El usuario solicitado no existe."
 msgid "<strong>Error:</strong> This username is already registered. Please choose another one."
 msgstr "<strong>Error</strong>: este nombre de usuario ya está registrado. Por favor, elige otro."
 
-<<<<<<< Updated upstream
 #: wp-includes/class-wp-image-editor-gd.php:126
-=======
-#: wp-includes/class-wp-image-editor-gd.php:133
->>>>>>> Stashed changes
 #: wp-includes/class-wp-image-editor-imagick.php:258
 msgid "Could not read image size."
 msgstr "No se pudo leer el tamaño de la imagen."
@@ -16750,11 +16268,7 @@ msgctxt "Display name based on first name and last name"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4996 wp-includes/media.php:4997
-=======
-#: wp-includes/media.php:4948 wp-includes/media.php:4949
->>>>>>> Stashed changes
 msgid "Add to gallery"
 msgstr "Añadir a la galería"
 
@@ -16770,11 +16284,7 @@ msgstr "No se ha podido introducir la relación entre términos en la base de da
 msgid "Clear"
 msgstr "Vaciar"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4949
-=======
-#: wp-includes/media.php:4901
->>>>>>> Stashed changes
 msgid "Create a new gallery"
 msgstr "Crea una nueva galería"
 
@@ -16855,11 +16365,7 @@ msgid "Header Text Color"
 msgstr "Color del texto de la cabecera"
 
 #: wp-includes/class-wp-customize-manager.php:5275
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:71131
-=======
-#: wp-includes/js/dist/block-editor.js:71130
->>>>>>> Stashed changes
 #: wp-includes/js/dist/edit-site.js:11281
 #: wp-includes/js/dist/edit-site.js:20564
 msgid "Colors"
@@ -16998,11 +16504,7 @@ msgstr "Archivos permitidos"
 #: wp-includes/customize/class-wp-customize-media-control.php:251
 #: wp-includes/customize/class-wp-customize-media-control.php:261
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:175
-<<<<<<< Updated upstream
 #: wp-includes/media-template.php:627 wp-includes/media.php:4932
-=======
-#: wp-includes/media-template.php:627 wp-includes/media.php:4884
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-editor.js:24496
 #: wp-includes/js/dist/block-editor.js:37266
 #: wp-includes/js/dist/block-library.js:63605
@@ -17016,13 +16518,8 @@ msgstr "Quitar"
 
 #. translators: Hidden accessibility text.
 #: wp-includes/js/dist/block-editor.js:24118
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:66439
 #: wp-includes/js/dist/block-editor.js:66457
-=======
-#: wp-includes/js/dist/block-editor.js:66438
-#: wp-includes/js/dist/block-editor.js:66456
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:63362
 #: wp-includes/js/dist/edit-site.js:19311 wp-includes/js/dist/editor.js:18959
 #: wp-admin/includes/class-custom-background.php:357
@@ -17568,13 +17065,8 @@ msgstr "Todas las páginas"
 #: wp-includes/class-wp-editor.php:1266
 #: wp-includes/js/dist/block-editor.js:23022
 #: wp-includes/js/dist/block-editor.js:27482
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:69065
 #: wp-includes/js/dist/block-editor.js:71120
-=======
-#: wp-includes/js/dist/block-editor.js:69064
-#: wp-includes/js/dist/block-editor.js:71119
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:5142
 #: wp-includes/js/dist/block-library.js:21850
 #: wp-includes/js/dist/block-library.js:21886
@@ -17899,11 +17391,7 @@ msgstr "Añadir nueva categoría de enlaces"
 msgid "New Link Category Name"
 msgstr "Nuevo nombre de categoría de enlaces"
 
-<<<<<<< Updated upstream
 #: wp-includes/user.php:3990 wp-includes/js/dist/block-editor.js:47486
-=======
-#: wp-includes/user.php:3990 wp-includes/js/dist/block-editor.js:47485
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:2069
 #: wp-includes/js/dist/core-data.js:2897 wp-includes/js/dist/edit-site.js:23018
 msgid "User"
@@ -18259,11 +17747,7 @@ msgstr "Tu dirección de correo electrónico no será publicada."
 msgid "A valid URL was not provided."
 msgstr "No se ha facilitado una URL válida."
 
-<<<<<<< Updated upstream
 #: wp-includes/class-wp-image-editor-gd.php:219
-=======
-#: wp-includes/class-wp-image-editor-gd.php:226
->>>>>>> Stashed changes
 #: wp-includes/class-wp-image-editor-imagick.php:361
 msgid "Could not calculate resized image dimensions"
 msgstr "No se han podido calcular las dimensiones de la imagen cambiada de tamaño"
@@ -18662,11 +18146,7 @@ msgstr "La URL de destino especificada no se puede usar como destino. Puede que 
 #: wp-includes/class-wp-customize-nav-menus.php:1115
 #: wp-includes/script-loader.php:1975 wp-signup.php:653
 #: wp-includes/js/dist/block-library.js:43816
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/components.js:58404
-=======
-#: wp-includes/js/dist/components.js:58402
->>>>>>> Stashed changes
 msgid "Next"
 msgstr "Siguiente"
 
@@ -18890,11 +18370,7 @@ msgstr "de"
 #: wp-includes/class-wp-editor.php:1222 wp-includes/script-loader.php:967
 #: wp-includes/widgets/class-wp-widget-media-image.php:28
 #: wp-includes/js/dist/block-editor.js:24837
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:66338
-=======
-#: wp-includes/js/dist/block-editor.js:66337
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:27040
 #: wp-includes/js/dist/block-library.js:47481
 #: wp-includes/js/dist/editor.js:15516 wp-admin/includes/media.php:2954
@@ -19197,11 +18673,7 @@ msgid "Fill Screen"
 msgstr "Rellenar pantalla"
 
 #: wp-includes/class-wp-editor.php:1267 wp-includes/script-loader.php:781
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:68749
-=======
-#: wp-includes/js/dist/block-editor.js:68748
->>>>>>> Stashed changes
 msgid "Insert link"
 msgstr "Insertar enlace"
 
@@ -19223,11 +18695,7 @@ msgid "Link Rel"
 msgstr "Relación del enlace"
 
 #: wp-includes/class-wp-editor.php:1226
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:47551
-=======
-#: wp-includes/js/dist/block-editor.js:47550
->>>>>>> Stashed changes
 msgid "Source"
 msgstr "Fuente"
 
@@ -19314,15 +18782,9 @@ msgstr "Espacio vertical"
 
 #: wp-includes/class-wp-editor.php:1232
 #: wp-includes/js/dist/block-editor.js:31689
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:69493
 #: wp-includes/js/dist/block-editor.js:69963
 #: wp-includes/js/dist/block-editor.js:70081
-=======
-#: wp-includes/js/dist/block-editor.js:69492
-#: wp-includes/js/dist/block-editor.js:69962
-#: wp-includes/js/dist/block-editor.js:70080
->>>>>>> Stashed changes
 msgid "Dimensions"
 msgstr "Dimensiones"
 
@@ -19347,11 +18809,7 @@ msgstr "Pegar"
 
 #: wp-includes/class-wp-customize-manager.php:4393
 #: wp-includes/class-wp-editor.php:1181
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:56823
-=======
-#: wp-includes/js/dist/block-editor.js:56822
->>>>>>> Stashed changes
 #: wp-includes/js/dist/components.js:37976 wp-includes/js/dist/editor.js:19228
 #: wp-admin/user-edit.php:987
 msgid "Copy"
@@ -19427,11 +18885,7 @@ msgid "Heading 1"
 msgstr "Título 1"
 
 #: wp-includes/class-wp-editor.php:1153
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:62768
-=======
-#: wp-includes/js/dist/block-editor.js:62767
->>>>>>> Stashed changes
 msgid "Paragraph"
 msgstr "Párrafo"
 
@@ -19588,11 +19042,7 @@ msgstr "%1$s %2$s"
 
 #. translators: 1: Month name, 2: 4-digit year.
 #. translators: 1: Month, 2: Year.
-<<<<<<< Updated upstream
 #: wp-includes/general-template.php:2086 wp-includes/media.php:4851
-=======
-#: wp-includes/general-template.php:2086 wp-includes/media.php:4803
->>>>>>> Stashed changes
 #: wp-admin/includes/class-wp-list-table.php:785
 msgid "%1$s %2$d"
 msgstr "%1$s %2$d"
@@ -19685,13 +19135,8 @@ msgid "%s is a protected WP option and may not be modified"
 msgstr "%s es una opción protegida de WP y no puede modificarse"
 
 #. translators: Used between list items, there is a space after the comma.
-<<<<<<< Updated upstream
 #: wp-includes/class-wp-locale.php:241 wp-includes/l10n.php:1971
 #: wp-includes/js/dist/block-editor.js:71290
-=======
-#: wp-includes/class-wp-locale.php:241 wp-includes/l10n.php:1948
-#: wp-includes/js/dist/block-editor.js:71289
->>>>>>> Stashed changes
 msgid ", "
 msgstr ", "
 
@@ -19982,11 +19427,7 @@ msgstr "&laquo; Comentarios anteriores"
 
 #: wp-includes/class-wp-editor.php:1263
 #: wp-includes/js/dist/block-editor.js:23354
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:69051
-=======
-#: wp-includes/js/dist/block-editor.js:69050
->>>>>>> Stashed changes
 msgid "Remove link"
 msgstr "Quitar enlace"
 
@@ -20005,11 +19446,7 @@ msgid "The URL you entered seems to be an email address. Do you want to add the 
 msgstr "La URL que has introducido parece ser una dirección de correo electrónico, ¿quieres añadir el prefijo mailto: obligatorio?"
 
 #: wp-includes/class-wp-editor.php:1373 wp-includes/script-loader.php:1289
-<<<<<<< Updated upstream
 #: wp-includes/theme.php:3746 wp-admin/js/nav-menu.js:1501
-=======
-#: wp-includes/theme.php:3746 wp-admin/js/nav-menu.js:1489
->>>>>>> Stashed changes
 #: wp-admin/js/post.js:493 wp-admin/js/theme-plugin-editor.js:71
 #: wp-admin/js/user-profile.js:519 wp-admin/js/widgets.js:98
 msgid "The changes you made will be lost if you navigate away from this page."
@@ -20068,11 +19505,7 @@ msgid_plural "Documents <span class=\"count\">(%s)</span>"
 msgstr[0] "Documento <span class=\"count\">(%s)</span>"
 msgstr[1] "Documentos <span class=\"count\">(%s)</span>"
 
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:47561
-=======
-#: wp-includes/js/dist/block-editor.js:47560
->>>>>>> Stashed changes
 #: wp-includes/js/dist/components.js:45099
 #: wp-admin/includes/ajax-actions.php:2261
 msgid "Type"
@@ -20278,15 +19711,9 @@ msgstr "Comentarios en %s"
 #: wp-includes/js/dist/block-library.js:10943
 #: wp-includes/js/dist/block-library.js:44321
 #: wp-includes/js/dist/block-library.js:61138
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/commands.js:3776 wp-includes/js/dist/components.js:60180
 #: wp-admin/includes/nav-menu.php:720 wp-admin/includes/nav-menu.php:1096
 #: wp-admin/js/nav-menu.js:1704 wp-admin/js/tags-suggest.js:141
-=======
-#: wp-includes/js/dist/commands.js:3776 wp-includes/js/dist/components.js:60178
-#: wp-admin/includes/nav-menu.php:720 wp-admin/includes/nav-menu.php:1096
-#: wp-admin/js/nav-menu.js:1692 wp-admin/js/tags-suggest.js:141
->>>>>>> Stashed changes
 msgid "No results found."
 msgstr "Sin resultados."
 
@@ -20323,15 +19750,9 @@ msgstr "Separa las etiquetas con comas."
 #: wp-includes/js/dist/block-editor.js:31057
 #: wp-includes/js/dist/block-editor.js:31253
 #: wp-includes/js/dist/block-editor.js:31318
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:65809
 #: wp-includes/js/dist/block-editor.js:73996
 #: wp-includes/js/dist/block-editor.js:74002
-=======
-#: wp-includes/js/dist/block-editor.js:65808
-#: wp-includes/js/dist/block-editor.js:73995
-#: wp-includes/js/dist/block-editor.js:74001
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:43112
 #: wp-includes/js/dist/block-library.js:43123
 #: wp-includes/js/dist/block-library.js:56812 wp-admin/options-media.php:70
@@ -20413,11 +19834,7 @@ msgstr "Título del sitio"
 msgid "First Post"
 msgstr "Primera entrada"
 
-<<<<<<< Updated upstream
 #: wp-includes/admin-bar.php:654 wp-includes/js/dist/block-editor.js:69317
-=======
-#: wp-includes/admin-bar.php:654 wp-includes/js/dist/block-editor.js:69316
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:1772
 #: wp-includes/js/dist/block-library.js:2108
 #: wp-includes/js/dist/block-library.js:3392
@@ -20541,15 +19958,9 @@ msgstr "No hay opciones para este widget."
 #: wp-includes/widgets/class-wp-widget-media-image.php:78
 #: wp-includes/js/dist/block-editor.js:31253
 #: wp-includes/js/dist/block-editor.js:31318
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:65802
 #: wp-includes/js/dist/block-editor.js:73980
 #: wp-includes/js/dist/block-editor.js:73986
-=======
-#: wp-includes/js/dist/block-editor.js:65801
-#: wp-includes/js/dist/block-editor.js:73979
-#: wp-includes/js/dist/block-editor.js:73985
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:7417
 #: wp-includes/js/dist/block-library.js:43133
 #: wp-includes/js/dist/block-library.js:43144
@@ -20641,11 +20052,7 @@ msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
 msgstr[0] "Confirmado <span class=\"count\">(%s)</span>"
 msgstr[1] "Confirmados <span class=\"count\">(%s)</span>"
 
-<<<<<<< Updated upstream
 #: wp-includes/taxonomy.php:196 wp-includes/js/dist/block-editor.js:64153
-=======
-#: wp-includes/taxonomy.php:196 wp-includes/js/dist/block-editor.js:64152
->>>>>>> Stashed changes
 #: wp-includes/js/dist/blocks.js:8077 wp-includes/js/dist/edit-site.js:20390
 #: wp-includes/js/dist/edit-site.js:20743
 #: wp-includes/js/dist/edit-site.js:20815
@@ -20683,22 +20090,13 @@ msgstr "Nueva página"
 #: wp-includes/class-wp-customize-manager.php:5742
 #: wp-includes/class-wp-editor.php:1189 wp-includes/class-wp-editor.php:1886
 #: wp-includes/script-loader.php:969 wp-includes/script-loader.php:1292
-<<<<<<< Updated upstream
 #: wp-includes/script-loader.php:1971 wp-includes/js/dist/block-editor.js:68768
 #: wp-includes/js/dist/block-editor.js:70589
-=======
-#: wp-includes/script-loader.php:1971 wp-includes/js/dist/block-editor.js:68767
-#: wp-includes/js/dist/block-editor.js:70588
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:33726
 #: wp-includes/js/dist/block-library.js:36051
 #: wp-includes/js/dist/block-library.js:63248
 #: wp-includes/js/dist/components.js:47551
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/components.js:61634
-=======
-#: wp-includes/js/dist/components.js:61632
->>>>>>> Stashed changes
 #: wp-includes/js/dist/edit-site.js:22235
 #: wp-includes/js/dist/edit-site.js:22440
 #: wp-includes/js/dist/edit-site.js:40860
@@ -20718,11 +20116,7 @@ msgstr "Nueva entrada"
 msgid "Edit Media"
 msgstr "Editar medios"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4928 wp-includes/js/dist/block-editor.js:68654
-=======
-#: wp-includes/media.php:4880 wp-includes/js/dist/block-editor.js:68653
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:63594
 #: wp-admin/includes/template.php:2063 wp-admin/nav-menus.php:1021
 #: wp-admin/plugin-editor.php:259 wp-admin/theme-editor.php:260
@@ -20748,11 +20142,7 @@ msgstr "Correo electrónico: %s"
 #. translators: displayed when a page has an empty title.
 #: wp-includes/blocks/latest-comments.php:31
 #: wp-includes/blocks/latest-posts.php:76 wp-includes/blocks/page-list.php:196
-<<<<<<< Updated upstream
 #: wp-includes/blocks/rss.php:37 wp-includes/media.php:4524
-=======
-#: wp-includes/blocks/rss.php:37 wp-includes/media.php:4476
->>>>>>> Stashed changes
 #: wp-includes/script-loader.php:1247
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:114
 #: wp-includes/js/dist/block-library.js:28414
@@ -20795,17 +20185,10 @@ msgstr "Imágenes"
 #: wp-includes/admin-bar.php:1196 wp-includes/admin-bar.php:1198
 #: wp-includes/blocks/search.php:27 wp-includes/blocks/search.php:28
 #: wp-includes/blocks/search.php:52 wp-includes/class-wp-editor.php:1909
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4927 wp-includes/js/dist/block-editor.js:46293
 #: wp-includes/js/dist/block-editor.js:48360
 #: wp-includes/js/dist/block-editor.js:48942
 #: wp-includes/js/dist/block-editor.js:49179
-=======
-#: wp-includes/media.php:4879 wp-includes/js/dist/block-editor.js:46293
-#: wp-includes/js/dist/block-editor.js:48359
-#: wp-includes/js/dist/block-editor.js:48941
-#: wp-includes/js/dist/block-editor.js:49178
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:48536
 #: wp-includes/js/dist/block-library.js:52537
 #: wp-includes/js/dist/block-library.js:52741
@@ -20813,13 +20196,8 @@ msgstr "Imágenes"
 #: wp-includes/js/dist/block-library.js:52863
 #: wp-includes/js/dist/block-library.js:52864
 #: wp-includes/js/dist/block-library.js:61123
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/components.js:59908
 #: wp-includes/js/dist/components.js:59909
-=======
-#: wp-includes/js/dist/components.js:59906
-#: wp-includes/js/dist/components.js:59907
->>>>>>> Stashed changes
 #: wp-includes/js/dist/edit-site.js:12276
 #: wp-includes/js/dist/edit-site.js:15010
 #: wp-includes/js/dist/edit-site.js:30152
@@ -20857,11 +20235,7 @@ msgstr "Añadir"
 msgid "Add or remove tags"
 msgstr "Añadir o quitar etiquetas"
 
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4930 wp-includes/script-loader.php:1245
-=======
-#: wp-includes/media.php:4882 wp-includes/script-loader.php:1245
->>>>>>> Stashed changes
 #: wp-login.php:738 wp-includes/js/dist/edit-site.js:14572
 #: wp-includes/js/dist/edit-widgets.js:3736 wp-admin/edit-form-comment.php:245
 #: wp-admin/edit-tag-form.php:301
@@ -20872,23 +20246,14 @@ msgstr "Añadir o quitar etiquetas"
 #: wp-admin/includes/class-wp-theme-install-list-table.php:481
 #: wp-admin/includes/meta-boxes.php:400 wp-admin/includes/meta-boxes.php:401
 #: wp-admin/includes/meta-boxes.php:492 wp-admin/includes/meta-boxes.php:493
-<<<<<<< Updated upstream
 #: wp-admin/includes/template.php:671 wp-admin/js/post.js:783
 #: wp-admin/js/post.js:806
-=======
-#: wp-admin/includes/template.php:671 wp-admin/js/post.js:781
-#: wp-admin/js/post.js:804
->>>>>>> Stashed changes
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:476
 msgid "Update"
 msgstr "Actualizar"
 
 #: wp-includes/js/dist/editor.js:16585 wp-admin/includes/meta-boxes.php:189
-<<<<<<< Updated upstream
 #: wp-admin/includes/meta-boxes.php:211 wp-admin/js/post.js:888
-=======
-#: wp-admin/includes/meta-boxes.php:211 wp-admin/js/post.js:886
->>>>>>> Stashed changes
 msgid "Public"
 msgstr "Público"
 
@@ -20899,11 +20264,7 @@ msgstr "Público"
 #: wp-admin/includes/class-wp-posts-list-table.php:1789
 #: wp-admin/includes/class-wp-posts-list-table.php:1991
 #: wp-admin/includes/meta-boxes.php:180 wp-admin/includes/meta-boxes.php:220
-<<<<<<< Updated upstream
 #: wp-admin/js/post.js:891
-=======
-#: wp-admin/js/post.js:889
->>>>>>> Stashed changes
 msgid "Private"
 msgstr "Privada"
 
@@ -20911,11 +20272,7 @@ msgstr "Privada"
 #: wp-includes/js/dist/block-library.js:48100
 #: wp-includes/js/dist/components.js:47683 wp-admin/includes/meta-boxes.php:165
 #: wp-admin/includes/meta-boxes.php:223 wp-admin/includes/template.php:897
-<<<<<<< Updated upstream
 #: wp-admin/js/post.js:1012
-=======
-#: wp-admin/js/post.js:1010
->>>>>>> Stashed changes
 msgid "OK"
 msgstr "Aceptar"
 
@@ -20932,11 +20289,7 @@ msgstr "Editar imagen"
 #: wp-includes/media-template.php:645 wp-includes/media-template.php:793
 #: wp-includes/media-template.php:1084 wp-includes/media-template.php:1147
 #: wp-includes/widgets/class-wp-widget-media-image.php:91
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:71119 wp-admin/includes/media.php:1405
-=======
-#: wp-includes/js/dist/block-editor.js:71118 wp-admin/includes/media.php:1405
->>>>>>> Stashed changes
 #: wp-admin/includes/media.php:3259
 msgid "Caption"
 msgstr "Leyenda"
@@ -20961,11 +20314,7 @@ msgstr "Tamaño"
 
 #: wp-includes/block-editor.php:174 wp-includes/media-template.php:919
 #: wp-includes/media-template.php:999 wp-includes/media-template.php:1190
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4567 wp-includes/js/dist/block-editor.js:8190
-=======
-#: wp-includes/media.php:4519 wp-includes/js/dist/block-editor.js:8190
->>>>>>> Stashed changes
 #: wp-admin/includes/class-custom-background.php:651
 #: wp-admin/includes/media.php:1206
 msgid "Full Size"
@@ -20973,11 +20322,7 @@ msgstr "Tamaño completo"
 
 #: wp-includes/block-editor.php:172 wp-includes/class-wp-theme-json.php:4158
 #: wp-includes/media-template.php:917 wp-includes/media-template.php:997
-<<<<<<< Updated upstream
 #: wp-includes/media-template.php:1188 wp-includes/media.php:4565
-=======
-#: wp-includes/media-template.php:1188 wp-includes/media.php:4517
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-editor.js:8184
 #: wp-includes/js/dist/components.js:57156
 #: wp-admin/includes/class-custom-background.php:649
@@ -21041,11 +20386,7 @@ msgstr "La biblioteca de imágenes GD no está instalada."
 
 #: wp-includes/block-editor.php:171 wp-includes/media-template.php:916
 #: wp-includes/media-template.php:996 wp-includes/media-template.php:1187
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4564 wp-includes/js/dist/block-editor.js:8181
-=======
-#: wp-includes/media.php:4516 wp-includes/js/dist/block-editor.js:8181
->>>>>>> Stashed changes
 #: wp-admin/includes/class-custom-background.php:648
 #: wp-admin/includes/image-edit.php:310 wp-admin/includes/media.php:1203
 msgid "Thumbnail"
@@ -21123,11 +20464,7 @@ msgid "Tags"
 msgstr "Etiquetas"
 
 #. translators: accessibility text for the content landmark region.
-<<<<<<< Updated upstream
 #: wp-includes/revision.php:33 wp-includes/js/dist/block-editor.js:69897
-=======
-#: wp-includes/revision.php:33 wp-includes/js/dist/block-editor.js:69896
->>>>>>> Stashed changes
 #: wp-includes/js/dist/edit-widgets.js:1465 wp-includes/js/dist/editor.js:9982
 #: wp-includes/js/dist/editor.js:29063 wp-includes/js/dist/editor.js:29118
 #: wp-admin/includes/dashboard.php:598 wp-admin/index.php:104
@@ -21135,7 +20472,6 @@ msgid "Content"
 msgstr "Contenido"
 
 #: wp-includes/class-wp-editor.php:1188 wp-includes/class-wp-editor.php:1939
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4929 wp-includes/script-loader.php:1291
 #: wp-includes/js/dist/block-editor.js:23935
 #: wp-includes/js/dist/block-editor.js:48022
@@ -21145,17 +20481,6 @@ msgstr "Contenido"
 #: wp-includes/js/dist/block-editor.js:66373
 #: wp-includes/js/dist/block-editor.js:66376
 #: wp-includes/js/dist/block-editor.js:71517
-=======
-#: wp-includes/media.php:4881 wp-includes/script-loader.php:1291
-#: wp-includes/js/dist/block-editor.js:23935
-#: wp-includes/js/dist/block-editor.js:48021
-#: wp-includes/js/dist/block-editor.js:56274
-#: wp-includes/js/dist/block-editor.js:56531
-#: wp-includes/js/dist/block-editor.js:65630
-#: wp-includes/js/dist/block-editor.js:66372
-#: wp-includes/js/dist/block-editor.js:66375
-#: wp-includes/js/dist/block-editor.js:71516
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:6677
 #: wp-includes/js/dist/block-library.js:39213
 #: wp-includes/js/dist/block-library.js:60937
@@ -21191,21 +20516,13 @@ msgstr "Contenido"
 #: wp-admin/nav-menus.php:1242 wp-admin/options-general.php:280
 #: wp-admin/user-edit.php:567 wp-admin/user-edit.php:688
 #: wp-admin/widgets-form.php:338 wp-admin/widgets-form.php:341
-<<<<<<< Updated upstream
 #: wp-admin/widgets-form.php:573 wp-admin/js/post.js:1013
-=======
-#: wp-admin/widgets-form.php:573 wp-admin/js/post.js:1011
->>>>>>> Stashed changes
 #: wp-admin/network/settings.php:184
 msgid "Cancel"
 msgstr "Cancelar"
 
 #: wp-includes/admin-bar.php:447 wp-includes/admin-bar.php:643
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:50770
-=======
-#: wp-includes/js/dist/block-editor.js:50769
->>>>>>> Stashed changes
 #: wp-includes/js/dist/core-data.js:2967 wp-includes/js/dist/editor.js:25796
 #: wp-admin/plugins.php:634 wp-admin/update-core.php:469
 #: wp-admin/update-core.php:488 wp-admin/network/menu.php:103
@@ -21233,11 +20550,7 @@ msgstr "Anónimo"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:57
 #: wp-includes/customize/class-wp-widget-area-customize-control.php:61
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:50583
-=======
-#: wp-includes/js/dist/block-editor.js:50582
->>>>>>> Stashed changes
 #: wp-includes/js/dist/components.js:46314 wp-admin/includes/widgets.php:299
 #: wp-admin/js/set-post-thumbnail.js:21
 msgid "Done"
@@ -21254,11 +20567,7 @@ msgstr "Usuarios"
 
 #: wp-includes/class-wp-customize-manager.php:4337
 #: wp-includes/class-wp-editor.php:1255
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:54185
-=======
-#: wp-includes/js/dist/block-editor.js:54184
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:24521
 #: wp-includes/js/dist/edit-site.js:35942
 #: wp-includes/js/dist/edit-site.js:38160 wp-admin/customize.php:211
@@ -21316,11 +20625,7 @@ msgid "Description"
 msgstr "Descripción"
 
 #: wp-includes/comment-template.php:2537
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:56521
-=======
-#: wp-includes/js/dist/block-editor.js:56520
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:18752
 #: wp-includes/js/dist/block-library.js:18917
 #: wp-includes/js/dist/block-library.js:19418
@@ -21346,11 +20651,7 @@ msgid "Name"
 msgstr "Nombre"
 
 #: wp-includes/class-wp-editor.php:1225
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:69357
-=======
-#: wp-includes/js/dist/block-editor.js:69356
->>>>>>> Stashed changes
 #: wp-includes/js/dist/edit-post.js:2281 wp-includes/js/dist/edit-site.js:12659
 #: wp-admin/edit-link-form.php:34
 msgid "Advanced"
@@ -21360,11 +20661,7 @@ msgstr "Avanzado"
 #: wp-includes/theme-compat/sidebar.php:131
 #: wp-includes/widgets/class-wp-widget-categories.php:31
 #: wp-includes/widgets/class-wp-widget-categories.php:48
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/components.js:62503 wp-includes/js/dist/patterns.js:429
-=======
-#: wp-includes/js/dist/components.js:62501 wp-includes/js/dist/patterns.js:429
->>>>>>> Stashed changes
 #: wp-admin/edit-link-form.php:31
 #: wp-admin/includes/class-wp-links-list-table.php:137
 #: wp-admin/includes/upgrade.php:420
@@ -21409,32 +20706,20 @@ msgstr "Extracto"
 
 #. translators: accessibility text for the publish landmark region.
 #: wp-includes/class-wp-customize-manager.php:4864
-<<<<<<< Updated upstream
 #: wp-includes/script-loader.php:1279 wp-includes/js/dist/block-editor.js:70634
-=======
-#: wp-includes/script-loader.php:1279 wp-includes/js/dist/block-editor.js:70633
->>>>>>> Stashed changes
 #: wp-includes/js/dist/edit-widgets.js:1471 wp-includes/js/dist/editor.js:9988
 #: wp-includes/js/dist/editor.js:16342 wp-includes/js/dist/editor.js:16350
 #: wp-includes/js/dist/editor.js:16728 wp-includes/js/dist/editor.js:20155
 #: wp-admin/customize.php:197 wp-admin/includes/meta-boxes.php:388
 #: wp-admin/includes/meta-boxes.php:389 wp-admin/includes/meta-boxes.php:1597
-<<<<<<< Updated upstream
 #: wp-admin/js/post.js:780
-=======
-#: wp-admin/js/post.js:778
->>>>>>> Stashed changes
 msgid "Publish"
 msgstr "Publicar"
 
 #. translators: button label text should, if possible, be under 16 characters.
 #: wp-includes/class-wp-editor.php:1257
 #: wp-includes/js/dist/block-editor.js:23942
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:56538
-=======
-#: wp-includes/js/dist/block-editor.js:56537
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:6689
 #: wp-includes/js/dist/block-library.js:41471
 #: wp-includes/js/dist/edit-site.js:8899 wp-includes/js/dist/edit-site.js:19901
@@ -21472,19 +20757,11 @@ msgid "Comments"
 msgstr "Comentarios"
 
 #: wp-includes/class-wp-customize-widgets.php:801
-<<<<<<< Updated upstream
 #: wp-includes/class-wp-editor.php:1396 wp-includes/media.php:4969
 #: wp-includes/js/dist/block-editor.js:56282
 #: wp-includes/js/dist/block-editor.js:65628
 #: wp-includes/js/dist/block-editor.js:65948
 #: wp-includes/js/dist/block-editor.js:66105
-=======
-#: wp-includes/class-wp-editor.php:1396 wp-includes/media.php:4921
-#: wp-includes/js/dist/block-editor.js:56281
-#: wp-includes/js/dist/block-editor.js:65627
-#: wp-includes/js/dist/block-editor.js:65947
-#: wp-includes/js/dist/block-editor.js:66104
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:51961
 #: wp-includes/js/dist/block-library.js:55927
 #: wp-includes/js/dist/edit-site.js:23077
@@ -21520,13 +20797,8 @@ msgstr "Resultados de búsqueda para &#8220;%s&#8221;"
 #: wp-includes/class-walker-comment.php:260
 #: wp-includes/class-walker-comment.php:459
 #: wp-includes/class-wp-editor.php:1394
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:65906
 #: wp-includes/js/dist/block-editor.js:68649
-=======
-#: wp-includes/js/dist/block-editor.js:65905
-#: wp-includes/js/dist/block-editor.js:68648
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:6649
 #: wp-includes/js/dist/block-library.js:9014
 #: wp-includes/js/dist/block-library.js:10258
@@ -21586,20 +20858,12 @@ msgstr "Comentario"
 #: wp-includes/embed.php:1186 wp-includes/media-template.php:899
 #: wp-includes/media-template.php:1125 wp-includes/media-template.php:1248
 #: wp-includes/media-template.php:1322 wp-includes/media-template.php:1413
-<<<<<<< Updated upstream
 #: wp-includes/media.php:4925 wp-includes/media.php:5604
-=======
-#: wp-includes/media.php:4877 wp-includes/media.php:5556
->>>>>>> Stashed changes
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:62
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:176
 #: wp-includes/widgets/class-wp-widget-media-image.php:113
 #: wp-includes/js/dist/block-editor.js:22231
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:66095
-=======
-#: wp-includes/js/dist/block-editor.js:66094
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:17967 wp-admin/comment.php:196
 #: wp-admin/edit-form-comment.php:69
 #: wp-admin/includes/class-walker-nav-menu-edit.php:198
@@ -21615,11 +20879,7 @@ msgstr "URL"
 #: wp-includes/class-wp-editor.php:1219 wp-includes/theme-compat/sidebar.php:29
 #: wp-includes/js/dist/block-library.js:40827
 #: wp-includes/js/dist/block-library.js:40835
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/components.js:62518
-=======
-#: wp-includes/js/dist/components.js:62516
->>>>>>> Stashed changes
 #: wp-includes/js/dist/edit-site.js:34154
 #: wp-includes/js/dist/edit-site.js:36064
 #: wp-includes/js/dist/edit-site.js:36890
@@ -21651,15 +20911,9 @@ msgid "Target"
 msgstr "Destino"
 
 #. translators: Default privacy policy heading.
-<<<<<<< Updated upstream
 #: wp-includes/class-wp-editor.php:1239 wp-includes/media.php:4924
 #: wp-includes/media.php:5611 wp-includes/js/dist/block-editor.js:49052
 #: wp-includes/js/dist/block-editor.js:66334
-=======
-#: wp-includes/class-wp-editor.php:1239 wp-includes/media.php:4876
-#: wp-includes/media.php:5563 wp-includes/js/dist/block-editor.js:49051
-#: wp-includes/js/dist/block-editor.js:66333
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:53900
 #: wp-includes/js/dist/blocks.js:8068 wp-includes/js/dist/core-data.js:2850
 #: wp-includes/js/dist/editor.js:29894 wp-admin/export.php:311
@@ -21670,20 +20924,12 @@ msgstr "Medios"
 
 #: wp-includes/class-wp-customize-manager.php:4869
 #: wp-includes/script-loader.php:1281 wp-admin/includes/dashboard.php:607
-<<<<<<< Updated upstream
 #: wp-admin/includes/meta-boxes.php:56 wp-admin/js/post.js:844
-=======
-#: wp-admin/includes/meta-boxes.php:56 wp-admin/js/post.js:842
->>>>>>> Stashed changes
 msgid "Save Draft"
 msgstr "Solo guardar"
 
 #: wp-includes/js/dist/block-editor.js:23892
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:68778
-=======
-#: wp-includes/js/dist/block-editor.js:68777
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:19766
 #: wp-admin/includes/dashboard.php:1398 wp-admin/setup-config.php:272
 msgid "Submit"
@@ -21747,15 +20993,9 @@ msgstr "Por %s"
 msgid "Actions"
 msgstr "Acciones"
 
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:57028
 #: wp-includes/js/dist/block-editor.js:59094
 #: wp-includes/js/dist/block-editor.js:71522
-=======
-#: wp-includes/js/dist/block-editor.js:57027
-#: wp-includes/js/dist/block-editor.js:59093
-#: wp-includes/js/dist/block-editor.js:71521
->>>>>>> Stashed changes
 #: wp-includes/js/dist/block-library.js:34019
 #: wp-includes/js/dist/edit-site.js:14565
 #: wp-includes/js/dist/edit-site.js:14611
@@ -21799,13 +21039,8 @@ msgstr "Borrar"
 msgid "File &#8220;%s&#8221; does not exist?"
 msgstr "¿El archivo «%s» no existe?"
 
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:71613
 #: wp-includes/js/dist/block-editor.js:71620
-=======
-#: wp-includes/js/dist/block-editor.js:71612
-#: wp-includes/js/dist/block-editor.js:71619
->>>>>>> Stashed changes
 #: wp-admin/includes/image-edit.php:64 wp-admin/includes/image-edit.php:161
 msgid "Scale"
 msgstr "Escala"
@@ -21839,11 +21074,7 @@ msgstr "Ver"
 msgid "Restore"
 msgstr "Restaurar"
 
-<<<<<<< Updated upstream
 #: wp-includes/js/dist/block-editor.js:51214 wp-admin/network/site-info.php:208
-=======
-#: wp-includes/js/dist/block-editor.js:51213 wp-admin/network/site-info.php:208
->>>>>>> Stashed changes
 msgid "Attributes"
 msgstr "Atributos"
 
@@ -21920,11 +21151,7 @@ msgstr "d/m/Y"
 #: wp-admin/includes/class-wp-posts-list-table.php:1214
 #: wp-admin/includes/class-wp-posts-list-table.php:1988
 #: wp-admin/includes/meta-boxes.php:112 wp-admin/includes/meta-boxes.php:152
-<<<<<<< Updated upstream
 #: wp-admin/js/post.js:821
-=======
-#: wp-admin/js/post.js:819
->>>>>>> Stashed changes
 msgid "Published"
 msgstr "Publicada"
 
