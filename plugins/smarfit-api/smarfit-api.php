@@ -14,3 +14,4 @@
 
    include_once 'CPT/register.php';
    include_once 'src/config.php';
+   include_once 'reports/register.php';
