@@ -33,10 +33,11 @@ function codes_upload_comerce() {
 
     $data = new get_data_comercio();
     $decode_data = $data->get_data_codes();
-  ?>
+    $get_tab = isset($_GET['tab']) ? $_GET['tab'] : 'codes';
+ ?>
 
   <script>
-    const dataReport = <?php echo $decode_data; ?>;
+    const dataReport = <?php echo json_encode($decode_data); ?>;
     console.log(dataReport);
 
     function dowload_report(jsonData, fileName) {
@@ -53,7 +54,7 @@ function codes_upload_comerce() {
 
       const link = document.createElement('a');
       link.setAttribute('href', url);
-      link.setAttribute('download', `${fileName}.csv`);
+      link.setAttribute('download', `${fileName}-${new Date().toISOString()}.csv`);
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -62,38 +63,78 @@ function codes_upload_comerce() {
   </script>
 
 
-  <div class="dowloan-report">
-    <a class="button button-primary button-hero" name="dowload_report" onclick="dowload_report(dataReport, 'reporte_codigos')" >Descargar reporte codigos<a>
-  </div>
-
   <div class="wrap">
-    <h1><?php esc_html_e('Carga masiva de códigos por comercio', 'smartfit'); ?></h1>
-    <div class="content">
+    <nav class="tabs-options">
+      <a href="?page=upload-codes&tab=codes" class="active" name="codes">Cargar codigos</a>
+      <a href="?page=upload-codes&tab=reportes" class="active" name="codes">Descargar reporte</a>
+    </nav>
+    <div class="wrap-content-taps">
+      <?php 
+        if ($get_tab == 'codes') { ?>
+          <div class="load-codes">
+            <h1 class="wp-heading-inline"><?php esc_html_e('Carga masiva de códigos por comercio', 'smartfit'); ?></h1>
+            <div class="content">
+              <form method="post" action="">
+                <div>
+                  <h3 class="select-comercio"><?php esc_html_e('Seleccione el comercio', 'smartfit'); ?></h3>
+                  <select name="post_id">
+                      <option value=""><?php esc_html_e('Seleccione el comercio', 'smartfit'); ?></option>
+                      <?php 
+                        foreach ($posts_list as $post) {
+                          $post_id = $post->ID;
+                          $post_title = $post->post_title;
+                          echo '<option value="'.$post_id.'">'.$post_title.'</option>';
+                        }
+                      ?>
+                  </select>
+                </div>
+        
+                <div>
+                  <h3 class="select-codes"><?php esc_html_e('Cargue los códigos', 'smartfit'); ?></h3>
+                  <textarea name="codes" id="codes" cols="100" rows="20"></textarea>
+                </div>
+        
+                <button type="submit" class="button button-primary button-hero" name="submit-codes">Actualizar</button>
+              </form>
+            </div>
+          </div>
+        <?php } 
 
-    <form method="post" action="">
-      <div>
-        <h3 class="select-comercio"><?php esc_html_e('Seleccione el comercio', 'smartfit'); ?></h3>
-        <select name="post_id">
-            <option value=""><?php esc_html_e('Seleccione el comercio', 'smartfit'); ?></option>
-            <?php 
-              foreach ($posts_list as $post) {
-                $post_id = $post->ID;
-                $post_title = $post->post_title;
-                echo '<option value="'.$post_id.'">'.$post_title.'</option>';
-              }
-            ?>
-        </select>
-      </div>
+        if($get_tab == 'reportes') { ?>
+          <div class="load-codes-given">
+            <h1 class="wp-heading-inline"><?php esc_html_e('Codigos entregados', 'smartfit'); ?></h1>
+            <div class="dowloan-report" style="margin: 20px 0">
+              <a class="button button-primary button-hero" name="dowload_report" onclick="dowload_report(dataReport, 'reporte_codigos')" >Descargar reporte codigos<a>
+            </div>
+            <h4 class="table-codes"><?php esc_html_e('Tabla de codigos', 'smartfit'); ?></h4>
+            <div class="table-codes-given">
+              <table class="widefat fixed striped">
+              <thead>
+                <tr>
+                  <th>Comercio</th>
+                  <th>Codigo</th>
+                  <th>Cedula</th>
+                  <th>Fecha</th>
+                </tr>
+              </thead>
+              <tbody>
+                <?php
+                  foreach ($decode_data as $key => $value) {
+                    echo '<tr>';
+                    echo '<td>'.$value['comercio_name'].'</td>';
+                    echo '<td>'.$value['codigo_descuento'].'</td>';
+                    echo '<td>'.$value['cedula_usuario'].'</td>';
+                    echo '<td>'.$value['date_created'].'</td>';
+                    echo '</tr>';   
+                  }
+                ?></tbody>
+              </table>
+            </div>
 
-      <div>
-        <h3 class="select-codes"><?php esc_html_e('Cargue los códigos', 'smartfit'); ?></h3>
-        <textarea name="codes" id="codes" cols="100" rows="20"></textarea>
-      </div>
-
-      <button type="submit" class="button button-primary button-hero" name="submit-codes">Actualizar</button>
-    </form>
-
+          </div>
+        <?php } ?>
     </div>
+    
   </div>
   <?php
 }

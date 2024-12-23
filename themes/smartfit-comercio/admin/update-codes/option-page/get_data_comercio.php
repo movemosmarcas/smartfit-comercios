@@ -9,6 +9,10 @@
         global $wpdb;
         $tabla = $wpdb->prefix . 'reportes';
 
+        if ($wpdb->get_var("SHOW TABLES LIKE '$tabla'") != $tabla) {
+            return json_encode(array('error' => 'La tabla no existe.'));
+        }
+
         $results = $wpdb->get_results("SELECT * FROM $tabla");
 
         $flattened_array = array();
@@ -22,7 +26,11 @@
             );
         }
         
-        return json_encode($flattened_array);
+        return $flattened_array;
+    }
+
+    function get_data_classic_codes(){
+        //add old code
     }
 }
 
