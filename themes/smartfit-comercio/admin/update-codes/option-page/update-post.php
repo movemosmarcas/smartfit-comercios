@@ -32,5 +32,9 @@
       update_field('codigos', $repeater_field, $post_id);
     }
 
+    function acf_delete_codes($post_id)   {
+      update_field('codigos', array(), $post_id);
+    }
+
 
   }

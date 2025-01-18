@@ -4,11 +4,11 @@ include 'get_data_comercio.php';
 
 function mi_pagina_de_ajustes() {
   add_options_page(
-      'Cargar codigos',     
-      'Carga masiva de código por comercio',   
-      'manage_options',           
-      'upload-codes',        
-      'codes_upload_comerce'    
+      'Cargar codigos',
+      'Carga masiva de código por comercio',
+      'manage_options',
+      'upload-codes',
+      'codes_upload_comerce'
   );
 }
 add_action('admin_menu', 'mi_pagina_de_ajustes');
@@ -20,6 +20,15 @@ function codes_upload_comerce() {
     $codes = $_POST['codes'];
     
     $updateFuncion = new update_repeater_post();
+    $updateFuncion->acf_update_codes($post_id, $codes);
+  }
+
+  if (isset($_POST["replace-codes"])) {
+    $post_id = $_POST['post_id'];
+    $codes = $_POST['codes'];
+    
+    $updateFuncion = new update_repeater_post();
+    $updateFuncion->acf_delete_codes($post_id);
     $updateFuncion->acf_update_codes($post_id, $codes);
   }
 
@@ -60,13 +69,20 @@ function codes_upload_comerce() {
       document.body.removeChild(link);
     }
 
+    const deleteCodes = (event) => {
+      const confirm = window.confirm('Esta seguro, se eliminaran los codigos actuales y se repalzaran por los nuevos');
+      if(!confirm){
+        event.preventDefault();
+      }
+    }
+
   </script>
 
 
   <div class="wrap">
     <nav class="tabs-options">
-      <a href="?page=upload-codes&tab=codes" class="active" name="codes">Cargar codigos</a>
-      <a href="?page=upload-codes&tab=reportes" class="active" name="codes">Descargar reporte</a>
+      <a href="?page=upload-codes&tab=codes" class="active" >Cargar codigos</a>
+      <a href="?page=upload-codes&tab=reportes" class="active">Descargar reporte</a>
     </nav>
     <div class="wrap-content-taps">
       <?php 
@@ -93,18 +109,18 @@ function codes_upload_comerce() {
                   <h3 class="select-codes"><?php esc_html_e('Cargue los códigos', 'smartfit'); ?></h3>
                   <textarea name="codes" id="codes" cols="100" rows="20"></textarea>
                 </div>
-        
-                <button type="submit" class="button button-primary button-hero" name="submit-codes">Actualizar</button>
+                <button type="submit" class="button button-primary button-hero" name="submit-codes">Agregar codigos</button>
+                <button type="submit" class="button button-secondary button-hero" name="replace-codes" onclick="deleteCodes(event)">Remplazar codigos</button>
               </form>
             </div>
           </div>
-        <?php } 
+        <?php }
 
         if($get_tab == 'reportes') { ?>
           <div class="load-codes-given">
             <h1 class="wp-heading-inline"><?php esc_html_e('Codigos entregados', 'smartfit'); ?></h1>
             <div class="dowloan-report" style="margin: 20px 0">
-              <a class="button button-primary button-hero" name="dowload_report" onclick="dowload_report(dataReport, 'reporte_codigos')" >Descargar reporte codigos<a>
+              <button class="button button-primary button-hero" name="dowload_report" onclick="dowload_report(dataReport, 'reporte_codigos')" >Descargar reporte codigos</button>
             </div>
             <h4 class="table-codes"><?php esc_html_e('Tabla de codigos', 'smartfit'); ?></h4>
             <div class="table-codes-given">
@@ -125,7 +141,7 @@ function codes_upload_comerce() {
                     echo '<td>'.$value['codigo_descuento'].'</td>';
                     echo '<td>'.$value['cedula_usuario'].'</td>';
                     echo '<td>'.$value['date_created'].'</td>';
-                    echo '</tr>';   
+                    echo '</tr>';
                   }
                 ?></tbody>
               </table>
