@@ -25,7 +25,7 @@
     public function get_page_data_by_slug() {
 
       $args =  array(
-        'post_type' => $this->post_type, 
+        'post_type' => $this->post_type,
         'posts_per_page' => -1,
         'orderby' => 'title',
         'order' => 'ASC'
@@ -48,7 +48,7 @@
             'operator' => 'AND'
           )
         );
-      } 
+      }
 
       $loop = new WP_Query($args);
       
@@ -66,12 +66,12 @@
               $fecha_de_until = get_field('fecha_de_until', get_the_ID()) ?? false;
 
               $validation_startDate = DateTime::createFromFormat('d/m/Y', $validation_date);
-              $validation_endDate = $fecha_de_until 
-                ? DateTime::createFromFormat('d/m/Y', $fecha_de_until) 
+              $validation_endDate = $fecha_de_until
+                ? DateTime::createFromFormat('d/m/Y', $fecha_de_until)
                 : new DateTime(date('Y-m-d', strtotime('+1 day')));
 
               $validation = $current_date > $validation_startDate && $current_date < $validation_endDate;
-              if($validation_date === '') $validation = false; 
+              if($validation_date === '') $validation = false;
 
               if($this->only_acf !== 'true') {
                 $page = array(
@@ -112,10 +112,11 @@
       if( have_rows('codigos', $post_id) ) {
         while( have_rows('codigos', $post_id) ) {
           the_row();
-          $status = get_sub_field('estado', $post_id);         
+          $status = get_sub_field('estado', $post_id);
             if($status[0] !== "true"){
               update_post_meta($post_id, 'codigos_'.$i.'_estado', 'true');
-              return new WP_REST_Response('Código entregado', 200);
+              $codigo = get_sub_field('codigo', $post_id);
+              return new WP_REST_Response($codigo, 200);
             }
           $i++;
         }
