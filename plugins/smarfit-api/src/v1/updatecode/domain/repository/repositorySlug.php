@@ -28,7 +28,8 @@
       }else{
         update_post_meta($post_id, 'times_gave', get_field('times_gave', $post_id) + 1);
       }
-      return new WP_REST_Response('data updated: '.$post_id, 200);
+      $codigo = get_field('code', $post_id);
+      return new WP_REST_Response(array('codigo' => $codigo), 200);
 
     }
 
